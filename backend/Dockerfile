@@ -17,8 +17,6 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
 COPY backend/. .
 COPY data ./data
 
-EXPOSE 8000
-
 EXPOSE 10000
 
-CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000}"]
+CMD ["sh", "start.sh"]
