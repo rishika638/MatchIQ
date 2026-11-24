@@ -1,150 +1,377 @@
-# MatchIQ — Opportunity Intelligence Engine
+# MatchIQ
 
-MatchIQ is an AI-powered SaaS platform engineered to help professionals discover engineering opportunities, evaluate compatibility transparently, understand skill gaps, and make informed career moves.
+### AI-powered opportunity discovery, explainable matching, and career intelligence
 
----
+[![Live Demo](https://img.shields.io/badge/Live-Demo-8B5CF6?style=for-the-badge&logo=vercel)](https://match-iq-ochre.vercel.app/)
+[![Backend](https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render)](https://matchiq-backend-9b64.onrender.com/)
+[![Health](https://img.shields.io/badge/Health-Connected-22C55E?style=for-the-badge)](https://matchiq-backend-9b64.onrender.com/health)
+[![GitHub](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/rishika638/MatchIQ)
 
-## 🌟 Key Differentiators & Engineering Highlights
+**MatchIQ turns a resume and career preferences into evidence-backed opportunity recommendations.** It combines dense vector retrieval, PostgreSQL keyword search, Reciprocal Rank Fusion, optional cross-encoder reranking, transparent candidate compatibility, persistent application tracking, and a tool-enabled AI career copilot.
 
-- **8-Stage Hybrid Search**: Combines pgvector dense semantic embeddings (384-d `all-MiniLM-L6-v2`) with PostgreSQL full-text keyword retrieval via **Reciprocal Rank Fusion (RRF, k=60)**.
-- **Cross-Encoder Reranking**: Configurable attention scoring using `cross-encoder/ms-marco-MiniLM-L-6-v2`.
-- **Explainable Matching Engine**: Itemizes compatibility across Semantic Similarity, Skills Overlap, Experience Tenure, Role Relevance, and Career Preferences while keeping hard eligibility constraints separate.
-- **Autonomous AI Career Copilot**: Real backend tool calling (`search_opportunities`, `get_opportunity_details`, `save_opportunity`, `compare_opportunities`, `get_candidate_profile`, `update_candidate_preferences`, `analyze_skill_gaps`) with configurable Google Gemini and deterministic offline fallback.
-- **Resume Extraction**: Automated PDF and TXT text extraction, parsing technical competencies, experience tenure, and education.
-- **Recommendation Feedback Loop**: Records user feedback (`relevant`, `not_relevant`, `applied`, `not_interested`) to calibrate match relevance.
-- **Reproducible Evaluation Suite**: Empirical benchmarking of MRR, NDCG@K, Precision@K, Recall@K, and latencies across 4 retrieval paradigms using ground-truth relevance judgements.
-- **Strict Multi-Tenant Architecture**: User and organization data isolation enforced across all database queries.
+<div align="center">
 
----
+| Live product | API health | GitHub |
+|---|---|---|
+| [Open MatchIQ](https://match-iq-ochre.vercel.app/) | [Backend health](https://matchiq-backend-9b64.onrender.com/health) | [Source repository](https://github.com/rishika638/MatchIQ) |
 
-## 🏗️ Tech Stack
-
-- **Frontend**: Next.js 14 App Router, React 18, TypeScript, Tailwind CSS, Lucide Icons, Recharts
-- **Backend**: Python 3.11+, FastAPI, Pydantic v2, SQLAlchemy 2, Alembic
-- **Database**: PostgreSQL 16, pgvector, PostgreSQL Full-Text Search
-- **AI & NLP**: Sentence Transformers (384-d MiniLM), Cross-Encoder Reranker, Google GenAI SDK
-- **Infrastructure**: Docker, Docker Compose, Production Dockerfiles
+</div>
 
 ---
 
-## 🚀 Quick Start with Docker Compose
+## Why MatchIQ
 
-To launch the complete platform (PostgreSQL with pgvector, FastAPI backend, and Next.js frontend):
+Most job search experiences rely on isolated keyword filters or opaque recommendation scores. MatchIQ presents retrieval and matching as measurable, explainable systems.
 
-```bash
-# 1. Clone repository and navigate to workspace
-git clone <repo_url>
-cd JobMatchIQ
+| Capability | What it does |
+|---|---|
+| **Hybrid discovery** | Fuses 384-dimensional semantic embeddings with PostgreSQL full-text keyword matching |
+| **Reciprocal Rank Fusion** | Combines independent rankings with `k = 60` |
+| **Cross-encoder reranking** | Applies a query-document relevance model after hybrid retrieval |
+| **Explainable matching** | Separates semantic, skill, experience, role, and preference components |
+| **AI career copilot** | Executes real search, profile, save, compare, preference, and skill-gap tools |
+| **Persistent tracker** | Stores lifecycle status, notes, feedback, conversations, tool calls, and search history |
+| **Ground-truth evaluation** | Measures retrieval quality with Precision, Recall, MRR, NDCG, and latency |
+| **Production deployment** | Runs Next.js on Vercel and FastAPI/PostgreSQL on Render |
 
-# 2. Configure environment (optional Gemini key for LLM mode)
-cp .env.example .env
+---
 
-# 3. Launch Docker containers
-docker-compose up --build
+## Product Modules
+
+| Module | Production behavior |
+|---|---|
+| **Landing** | Product introduction and direct search entry |
+| **Authentication** | JWT login and registration with tenant creation |
+| **Dashboard** | Live database metrics, skill insights, search activity, and feedback summary |
+| **Discover** | Keyword, semantic, hybrid RRF, reranked, filtered, and paginated retrieval |
+| **Opportunity Details** | Full role data plus component-level candidate compatibility |
+| **Profile** | Skills, experience, education, preferences, and PDF/TXT resume extraction |
+| **AI Copilot** | Conversational tool execution with database-backed memory and offline fallback |
+| **Saved Tracker** | Saved, applied, interviewing, offered, and archived lifecycle stages |
+| **Comparison** | Side-by-side analysis of 2–4 opportunities |
+| **Evaluation** | Persisted benchmark runs across all four retrieval methods |
+| **Settings** | CSV/JSON ingestion, batch validation, duplicate handling, and embedding re-indexing |
+
+---
+
+## Architecture
+
+```mermaid
+flowchart LR
+    U["Candidate"] --> V["Next.js 14 · React 18 · TypeScript"]
+    V -->|"JWT + JSON"| F["FastAPI REST API"]
+    F --> A["JWT Authentication"]
+    F --> S["Hybrid Retrieval"]
+    F --> M["Explainable Matching"]
+    F --> C["Career Copilot"]
+    F --> T["Tracker & Feedback"]
+    S --> E["384-D Sentence Embeddings"]
+    S --> K["PostgreSQL Full-Text Search"]
+    S --> R["RRF k=60"]
+    R --> X["Cross-Encoder Reranking"]
+    E --> P[("PostgreSQL 16 + pgvector")]
+    K --> P
+    M --> P
+    C --> P
+    T --> P
+    C -.->|"Unavailable / failure"| O["Deterministic Offline Tool Engine"]
 ```
 
-- **Frontend**: `http://localhost:3000`
-- **FastAPI REST API**: `http://localhost:8000`
-- **Interactive OpenAPI Documentation**: `http://localhost:8000/api/v1/docs`
+### Hybrid Retrieval Pipeline
+
+1. Normalize and tokenize the natural-language query.
+2. Generate a 384-dimensional `all-MiniLM-L6-v2` embedding.
+3. Retrieve semantically similar opportunities from pgvector.
+4. Retrieve keyword matches across title, company, description, location, and skills.
+5. Fuse semantic and keyword rankings using:
+
+\[
+RRF(d)=\sum_{m}\frac{1}{60+\operatorname{rank}_{m}(d)}
+\]
+
+6. Apply location, work mode, role type, salary, experience, and skills filters.
+7. Optionally rerank candidates with `cross-encoder/ms-marco-MiniLM-L-6-v2`.
+8. Return paginated results with retrieval metadata and explainable compatibility.
+
+### Explainable Matching
+
+The live compatibility engine is explicitly weighted:
+
+| Component | Weight |
+|---|---:|
+| Semantic similarity | 30% |
+| Skills overlap | 30% |
+| Experience compatibility | 15% |
+| Role relevance | 15% |
+| Preference compatibility | 10% |
+
+Required skills receive 75% of the skill component and nice-to-have skills receive 25%. Experience and preference penalties are calculated independently of the hard eligibility violations.
+
+### AI Career Copilot
+
+The copilot can execute:
+
+- `search_opportunities`
+- `get_opportunity_details`
+- `save_opportunity`
+- `compare_opportunities`
+- `get_candidate_profile`
+- `update_candidate_preferences`
+- `analyze_skill_gaps`
+
+Tool calls and results are persisted, while the deterministic engine provides a database-backed fallback when Gemini is unavailable or returns an error.
 
 ---
 
-## 💻 Local Development Setup (Without Docker)
+## Verified Engineering Results
 
-### 1. Backend Setup
+> The numbers below come from executed local QA and fresh-database migration tests. They are system-quality evidence, not production traffic or live business metrics.
 
-```bash
-cd backend
+### Database and Ingestion QA
 
-# Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+| Verification | Result |
+|---|---|
+| Original seed opportunities | **100** |
+| Synthetic records added during local QA | **113** |
+| Local database opportunity total after QA | **213** |
+| Opportunity embeddings verified | **213** |
+| Embeddings with 384 dimensions | **213** |
+| Fresh PostgreSQL tables | **20** |
+| Fresh migration benchmark queries | **10** |
+| Fresh migration relevance judgments | **542** |
+| Fresh migration seed opportunities | **100** |
+| Fresh migration demo users | **0** |
+| Smoke test | **10/10 backend flows passed** |
 
-# Install dependencies
-pip install -r requirements.txt
+The ingestion QA covered 1-record JSON, 10-record CSV, 100-record JSON, duplicate IDs, invalid records, partial failures, BOM-prefixed JSON, 11 MB upload rejection, re-indexing, embedding persistence, and searchability.
 
-# Initialize database, load 100 opportunities, and run benchmarks
-python scripts/init_and_seed.py
+### Matching Evidence
 
-# Run FastAPI development server
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
-```
+A profile skill change for one synthetic opportunity demonstrated measurable explainability:
 
-### 2. Frontend Setup
+| Metric | Before | After |
+|---|---:|---:|
+| Overall compatibility | 89.4% | 76.0% |
+| Semantic similarity | 72.2% | 52.5% |
+| Skills overlap | 100.0% | 75.0% |
+| Experience compatibility | 100.0% | 100.0% |
+| Role relevance | 85.0% | 85.0% |
+| Preference compatibility | 100.0% | 100.0% |
 
-```bash
-cd frontend
+Removing `Python` also correctly changed the missing-skills result and reduced the overall score by **13.4 percentage points**.
 
-# Install Node dependencies
-npm install
+### Retrieval Benchmark QA
 
-# Run Next.js App Router development server
-npm run dev
-```
+The 10-query benchmark suite used 542 stored relevance judgments. These are measured local QA results against an active corpus—not projected or simulated improvements.
 
-Visit `http://localhost:3000` in your browser.
+| Retrieval method | MRR | NDCG@5 | Precision@3 | Recall@5 | Avg latency |
+|---|---:|---:|---:|---:|---:|
+| Keyword | 0.1167 | 0.1763 | 0.6667 | 0.0494 | 8.85 ms |
+| Dense semantic | **0.9500** | **0.8022** | **1.0000** | **0.1009** | 66.54 ms |
+| Hybrid RRF | 0.2600 | 0.1782 | 0.7000 | 0.0464 | 44.03 ms |
+| Hybrid reranked | 0.5667 | 0.6321 | 0.8333 | 0.0745 | 1993.74 ms |
 
----
+The reranker benchmark was CPU-bound in the test environment. The dense semantic method led on MRR and NDCG for this benchmark snapshot, while reranking improved the hybrid Precision@3 result over plain hybrid RRF.
 
-## 👤 Pre-Seeded Demo Credentials
+### Smoke and Build QA
 
-The database comes pre-seeded with 100 realistic technical roles across engineering domains and a pre-configured demo candidate:
-
-- **Email**: `candidate@matchiq.ai`
-- **Password**: `DemoCandidate123!`
-- **Role**: Senior Full Stack & Distributed Systems Engineer
-
-*(A quick "One-Click Fill" button is also provided on the `/auth` page for instant login).*
-
----
-
-## 📊 Application Pages Overview
-
-1. **Landing Page (`/`)**: Natural language search query box, system architecture highlights, and navigation.
-2. **Authentication (`/auth`)**: JWT-based Sign In & Registration with demo candidate prefill.
-3. **Intelligence Dashboard (`/dashboard`)**: Active opportunity count, saved/applied metrics, average compatibility, and target role skill gap insights.
-4. **Opportunity Discovery (`/discover`)**: 8-stage hybrid retrieval, RRF scores, keyword ranks, and Cross-Encoder toggle.
-5. **Opportunity Details (`/opportunities/[id]`)**: Full description, responsibilities, benefits, explainable compatibility breakdown, and recommendation feedback loop.
-6. **Candidate Profile (`/profile`)**: Skills manager, resume PDF uploader with live extraction preview, and work mode preferences.
-7. **AI Career Copilot (`/agent`)**: Autonomous career copilot executing real backend tools with persistent conversational memory.
-8. **Application Tracker (`/saved`)**: Lifecycle stage manager (`saved`, `applied`, `interviewing`, `offered`, `archived`) with private notes.
-9. **Opportunity Comparison (`/compare`)**: Side-by-side comparative matrix of 2 to 4 technical roles.
-10. **Evaluation & Benchmarks (`/evaluation`)**: Interactive quantitative evaluation dashboard comparing MRR, NDCG@5, Precision@3, and Latency.
-11. **Settings & Ingestion (`/settings`)**: Multi-tenant workspace overview, CSV/JSON dataset ingestion, and embedding re-indexing.
-
----
-
-## 🧪 Quantitative Evaluation & Benchmarking
-
-MatchIQ includes a real, reproducible offline evaluation pipeline with ground-truth relevance judgements (`data/evaluation/evaluation_benchmark.json`).
-
-To trigger the benchmark run:
-- **Via UI**: Navigate to `/evaluation` and click **"Run Benchmark Suite"**.
-- **Via API**: `POST /api/v1/evaluation/run-suite`
-- **Via CLI**: `python backend/scripts/init_and_seed.py`
-
-Results are persisted in PostgreSQL `evaluation_runs`.
+- `docker compose exec backend python scripts/test_smoke.py` — **passed**
+- Backend health, login, profile, search, details, save, Copilot, feedback, dashboard, and evaluation checks — **passed**
+- Frontend TypeScript `tsc --noEmit` — **passed**
+- Next.js `npm run build` — **passed**
+- Clean backend Docker build — **passed**
+- Backend image size after CPU-only dependency hardening — **451.47 MB**
+- PyTorch packaged as CPU-only `2.6.0+cpu`; no CUDA/NVIDIA dependency stack
+- Frontend lint — passed with four React Hook dependency warnings
+- No backend pytest test modules were present; the repository smoke script is the tested backend suite
 
 ---
 
-## 🔒 Security & Data Isolation
+## Security and Reliability
+
+Verified controls include:
 
 - PBKDF2-HMAC-SHA256 salted password hashing
 - Stateless JWT bearer authentication
-- Multi-tenant tenant access enforcement (`enforce_tenant_access`)
-- Pydantic v2 strict input validation
-- Multipart file size and MIME-type verification
+- Invalid JWT and malformed JSON rejection
+- User-isolated saved opportunities
+- SQL-injection string handling through parameterized ORM queries
+- 10 MB dataset and resume upload limits
+- 10,000-record dataset limit
+- Explicit CORS origin allowlists with wildcard origin rejection
+- Login, registration, ingestion, agent, resume, and evaluation rate limits
+- HTTP 429 response verification for login bursts
+- Cross-encoder and Gemini fallback behavior
+- Database-backed health check
+- Production secret and CORS startup validation
+- pgvector migration and fresh PostgreSQL verification
+
+Production initialization is separated from local demo seeding. Demo credentials are never created by the normal production seed command.
 
 ---
 
-## 📚 Technical Documentation
+## Tech Stack
 
-- [System Architecture & Multi-Stage Retrieval](docs/architecture.md)
-- [REST API Reference & OpenAPI Endpoints](docs/api.md)
-- [Quantitative Evaluation & Metric Formulations](docs/evaluation.md)
+### Frontend
+
+![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=0B2239)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?logo=tailwindcss&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-visualization-FF6B6B)
+
+### Backend
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-v2-E92063)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2-D71F00)
+![Alembic](https://img.shields.io/badge/Alembic-migrations-6BA81E)
+
+### Data and AI
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-vector%20search-1D3557)
+![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-MiniLM-FFB000)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-Agent-4285F4)
+
+### Infrastructure
+
+![Vercel](https://img.shields.io/badge/Vercel-Frontend-000000?logo=vercel)
+![Render](https://img.shields.io/badge/Render-Backend-46E3B7?logo=render)
+![Docker](https://img.shields.io/badge/Docker-containerized-2496ED?logo=docker&logoColor=white)
 
 ---
 
-## 📄 License & Attribution
+## Deployment
 
-MatchIQ Opportunity Intelligence Engine is licensed under the Apache 2.0 License. All demo opportunities in `data/seed/` are synthetic records created for benchmarking and demonstration purposes.
+| Surface | Platform | Live URL |
+|---|---|---|
+| Frontend | Vercel | [match-iq-ochre.vercel.app](https://match-iq-ochre.vercel.app/) |
+| Backend | Render | [matchiq-backend-9b64.onrender.com](https://matchiq-backend-9b64.onrender.com/) |
+| Swagger / API docs | Render | [Open API docs](https://matchiq-backend-9b64.onrender.com/api/v1/docs) |
+| Health | Render | [Check backend health](https://matchiq-backend-9b64.onrender.com/health) |
+
+The Swagger route is a documented API surface. If a production deployment disables FastAPI docs, the route may return HTTP 404; `/health` remains the deployment health endpoint.
+
+For deployment configuration, use the `.env.example`, backend Dockerfile, frontend API client, and Docker Compose setup.
+
+---
+
+## Local Setup
+
+### Docker Compose
+
+```bash
+git clone https://github.com/rishika638/MatchIQ.git
+cd MatchIQ
+cp .env.example .env
+docker compose up --build
+```
+
+- Frontend: `http://localhost:3000`
+- Backend: `http://localhost:8000`
+- Swagger, when enabled: `http://localhost:8000/api/v1/docs`
+- Health: `http://localhost:8000/health`
+
+Docker startup can use demo seeding explicitly:
+
+```bash
+cd backend
+python scripts/init_and_seed.py --demo
+```
+
+Production-style initialization, migrations, and benchmark loading:
+
+```bash
+cd backend
+alembic upgrade head
+python scripts/init_and_seed.py
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm ci
+npm run typecheck
+npm run lint
+npm run build
+npm run dev
+```
+
+Set `NEXT_PUBLIC_API_URL` to the deployed backend API base, ending in `/api/v1`.
+
+### Backend
+
+```bash
+cd backend
+python -m venv .venv
+
+# macOS/Linux
+source .venv/bin/activate
+
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+
+pip install -r requirements.txt
+uvicorn app.main:app --host 0.0.0.0 --port 10000
+```
+
+---
+
+## Repository Structure
+
+```text
+MatchIQ/
+├── backend/
+│   ├── app/
+│   │   ├── api/v1/          # REST route modules
+│   │   ├── core/            # Settings, JWT, database, rate limiting
+│   │   ├── models/          # SQLAlchemy entities
+│   │   ├── schemas/         # Pydantic request and response schemas
+│   │   └── services/        # Search, matching, ingestion, agent, evaluation
+│   ├── migrations/          # Alembic schema migrations
+│   ├── scripts/             # Migration, initialization, seed, smoke scripts
+│   ├── Dockerfile
+│   └── requirements.txt
+├── frontend/
+│   └── src/
+│       ├── app/             # Landing and 11 application experiences
+│       ├── components/      # Shared navigation and UI components
+│       └── lib/             # API client
+├── data/
+│   ├── seed/                # Original 100-opportunity dataset
+│   └── evaluation/          # Ground-truth benchmark queries
+├── docs/
+│   ├── architecture.md
+│   ├── api.md
+│   ├── evaluation.md
+│   └── deployment guide
+├── docker-compose.yml
+└── .env.example
+```
+
+---
+
+## Screenshots
+
+MatchIQ's live product is the visual source of truth. No verified screenshot assets are currently stored in this repository, so this README does not claim or embed unexecuted UI captures.
+
+Explore the deployed interface:
+
+- [Landing and Search](https://match-iq-ochre.vercel.app/)
+- [Opportunity Discovery](https://match-iq-ochre.vercel.app/discover)
+- [Dashboard](https://match-iq-ochre.vercel.app/dashboard)
+- [AI Career Copilot](https://match-iq-ochre.vercel.app/agent)
+- [Benchmark Evaluation](https://match-iq-ochre.vercel.app/evaluation)
+
+---
+
+<div align="center">
+
+**Built to show the engineering behind every recommendation.**
+
+[Live Demo](https://match-iq-ochre.vercel.app/) · [Backend](https://matchiq-backend-9b64.onrender.com/) · [GitHub](https://github.com/rishika638/MatchIQ)
+
+</div>
