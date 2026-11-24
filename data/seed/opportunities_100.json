@@ -1,0 +1,4498 @@
+[
+  {
+    "id": "opp-seed-001",
+    "title": "Senior Distributed Systems Engineer",
+    "company": "NexusScale Labs",
+    "department": "Infrastructure",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 9,
+    "min_salary": 175000,
+    "max_salary": 225000,
+    "currency": "USD",
+    "description": "NexusScale is building the next-generation multi-region consensus and messaging backbone for high-throughput enterprise systems. You will architect low-latency event fabrics handling 2M+ IOPS across global clusters.",
+    "responsibilities": [
+      "Architect and maintain fault-tolerant distributed consensus services using Raft and Go.",
+      "Optimize network serialization and memory layouts for sub-millisecond p99 latencies.",
+      "Design multi-tenant isolation boundaries and load shedding mechanisms."
+    ],
+    "required_skills": [
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "gRPC",
+      "Kafka",
+      "PostgreSQL"
+    ],
+    "nice_to_have_skills": [
+      "Rust",
+      "Raft Consensus",
+      "eBPF",
+      "Prometheus"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-001",
+    "contact_email": "talent@nexusscalelabs.com"
+  },
+  {
+    "id": "opp-seed-002",
+    "title": "Backend Engineering Intern - Distributed AI",
+    "company": "CognitiveStream",
+    "department": "Core AI Platform",
+    "work_mode": "hybrid",
+    "location": "Seattle, WA",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 90000,
+    "max_salary": 115000,
+    "currency": "USD",
+    "description": "Join our AI Platform team for an intensive internship building distributed asynchronous worker queues and caching layers for LLM inference pipelines.",
+    "responsibilities": [
+      "Implement high-throughput batching microservices in Python 3.12 and FastAPI.",
+      "Build benchmark harnesses to profile worker queue throughput and Redis cache hit rates.",
+      "Collaborate with AI researchers to deploy distributed model inference jobs."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Distributed Systems",
+      "SQLAlchemy",
+      "Docker"
+    ],
+    "nice_to_have_skills": [
+      "Ray",
+      "PyTorch",
+      "Redis",
+      "Kafka"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-002",
+    "contact_email": "talent@cognitivestream.com"
+  },
+  {
+    "id": "opp-seed-003",
+    "title": "Senior AI Infrastructure Engineer",
+    "company": "Synthetix AI",
+    "department": "Platform ML",
+    "work_mode": "remote",
+    "location": "New York, NY (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 4,
+    "max_years_experience": 8,
+    "min_salary": 185000,
+    "max_salary": 240000,
+    "currency": "USD",
+    "description": "Lead the team scaling production inference engines for multi-modal generative models. You will oversee GPU orchestration, model sharding, dynamic batching, and KV-cache offloading.",
+    "responsibilities": [
+      "Optimize model serving runtimes using Triton, vLLM, and custom CUDA kernels.",
+      "Manage large GPU clusters on Kubernetes with custom autoscalers.",
+      "Integrate pgvector and Milvus for trillion-vector semantic retrieval."
+    ],
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "Kubernetes",
+      "Vector Databases",
+      "Triton Inference Server",
+      "CUDA"
+    ],
+    "nice_to_have_skills": [
+      "vLLM",
+      "TensorRT",
+      "Slurm",
+      "LangChain"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-003",
+    "contact_email": "talent@synthetixai.com"
+  },
+  {
+    "id": "opp-seed-004",
+    "title": "Machine Learning Engineer - NLP & Search",
+    "company": "Vectura Search",
+    "department": "Applied Research",
+    "work_mode": "remote",
+    "location": "Austin, TX (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 3,
+    "max_years_experience": 6,
+    "min_salary": 150000,
+    "max_salary": 190000,
+    "currency": "USD",
+    "description": "We are seeking an ML engineer passionate about neural search, dense retrieval, and hybrid re-ranking. You will train custom bi-encoders and cross-encoders to power enterprise knowledge discovery.",
+    "responsibilities": [
+      "Fine-tune dense bi-encoder models on domain-specific enterprise corpora.",
+      "Implement hybrid search pipelines combining BM25 keyword matching with vector cosine distance.",
+      "Evaluate retrieval quality using NDCG@10, MRR, and reciprocal rank fusion."
+    ],
+    "required_skills": [
+      "Python",
+      "Sentence Transformers",
+      "pgvector",
+      "Information Retrieval",
+      "Elasticsearch",
+      "PyTorch"
+    ],
+    "nice_to_have_skills": [
+      "Cross-Encoders",
+      "HuggingFace",
+      "Reranking",
+      "FastAPI"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-004",
+    "contact_email": "talent@vecturasearch.com"
+  },
+  {
+    "id": "opp-seed-005",
+    "title": "Full Stack Engineer - AI Experiences",
+    "company": "HyperLogic Technologies",
+    "department": "Product Engineering",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 3,
+    "max_years_experience": 7,
+    "min_salary": 145000,
+    "max_salary": 185000,
+    "currency": "USD",
+    "description": "Help design and build interactive, real-time AI copilots. You will bridge elegant React/Next.js interfaces with streaming FastAPI backends, delivering fluid generative UI experiences.",
+    "responsibilities": [
+      "Build accessible, responsive UI workflows in Next.js App Router and Tailwind CSS.",
+      "Develop resilient backend endpoints with FastAPI, WebSockets, and server-sent events.",
+      "Collaborate closely with product designers to ship intuitive agentic dashboards."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Python",
+      "FastAPI",
+      "Tailwind CSS"
+    ],
+    "nice_to_have_skills": [
+      "PostgreSQL",
+      "Docker",
+      "LangChain",
+      "WebSockets"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-005",
+    "contact_email": "talent@hyperlogictechnologies.com"
+  },
+  {
+    "id": "opp-seed-006",
+    "title": "Senior Cloud SRE & Security Engineer",
+    "company": "Aegis Cloud Systems",
+    "department": "Security & Operations",
+    "work_mode": "remote",
+    "location": "Chicago, IL (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 10,
+    "min_salary": 170000,
+    "max_salary": 215000,
+    "currency": "USD",
+    "description": "Aegis Cloud operates mission-critical fintech infrastructure. As Senior SRE, you will harden our multi-region AWS and Kubernetes footprints, implement zero-trust telemetry, and manage automated DR drills.",
+    "responsibilities": [
+      "Maintain infrastructure as code with Terraform and GitOps practices (ArgoCD).",
+      "Establish SLOs, automated error-budget alerting, and incident response playbooks.",
+      "Conduct penetration testing and enforce IAM least-privilege policies."
+    ],
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Linux",
+      "CI/CD",
+      "Docker",
+      "Python"
+    ],
+    "nice_to_have_skills": [
+      "Vault",
+      "OpenTelemetry",
+      "Zero Trust",
+      "Golang"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-006",
+    "contact_email": "talent@aegiscloudsystems.com"
+  },
+  {
+    "id": "opp-seed-007",
+    "title": "Data Platform Engineer - Streaming & Analytics",
+    "company": "DataPulse Corp",
+    "department": "Data Infrastructure",
+    "work_mode": "onsite",
+    "location": "Boston, MA",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 3,
+    "max_years_experience": 6,
+    "min_salary": 140000,
+    "max_salary": 180000,
+    "currency": "USD",
+    "description": "Architect real-time event streaming and analytical data marts powering consumer insights. You will craft scalable ETL/ELT pipelines processing billions of events daily.",
+    "responsibilities": [
+      "Build and monitor streaming data consumers using Apache Kafka and Spark Streaming.",
+      "Maintain dimensional schemas and data warehouse transforms in Snowflake and dbt.",
+      "Ensure high data freshness, accuracy, and schema evolution compatibility."
+    ],
+    "required_skills": [
+      "Python",
+      "Apache Kafka",
+      "Apache Spark",
+      "SQL",
+      "Snowflake",
+      "dbt"
+    ],
+    "nice_to_have_skills": [
+      "Apache Flink",
+      "Airflow",
+      "Iceberg",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-007",
+    "contact_email": "talent@datapulsecorp.com"
+  },
+  {
+    "id": "opp-seed-008",
+    "title": "Lead Backend Architect - Financial Systems",
+    "company": "Finovate Global",
+    "department": "Core Banking",
+    "work_mode": "hybrid",
+    "location": "New York, NY",
+    "opportunity_type": "full-time",
+    "experience_level": "lead",
+    "min_years_experience": 8,
+    "max_years_experience": 14,
+    "min_salary": 220000,
+    "max_salary": 290000,
+    "currency": "USD",
+    "description": "Lead the technical strategy and system architecture for our distributed ledger and ledger settlement engines. High concurrency, double-entry consistency, and zero downtime are paramount.",
+    "responsibilities": [
+      "Design immutable event-sourced ledgers and real-time transaction reconciliation services.",
+      "Mentor senior engineers on distributed transaction patterns (Saga, 2PC, Outbox).",
+      "Partner with compliance and security leaders on regulatory audit trails."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Distributed Systems",
+      "PostgreSQL",
+      "Kafka",
+      "Microservices"
+    ],
+    "nice_to_have_skills": [
+      "Go",
+      "Kubernetes",
+      "Event Sourcing",
+      "CQRS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-008",
+    "contact_email": "talent@finovateglobal.com"
+  },
+  {
+    "id": "opp-seed-009",
+    "title": "Frontend Software Engineer - Design Systems",
+    "company": "Aura Interactive",
+    "department": "Design Engineering",
+    "work_mode": "remote",
+    "location": "Los Angeles, CA (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 5,
+    "min_salary": 130000,
+    "max_salary": 165000,
+    "currency": "USD",
+    "description": "Create the unified UI kit and component library powering dozens of web and mobile enterprise applications. Focus on micro-interactions, accessibility compliance (WCAG AAA), and developer velocity.",
+    "responsibilities": [
+      "Develop reusable, token-driven component architectures in TypeScript and React.",
+      "Ensure cross-browser pixel precision, keyboard navigation, and screen reader friendliness.",
+      "Write comprehensive automated visual regression and component unit tests."
+    ],
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "CSS Modules",
+      "Storybook",
+      "Accessibility (a11y)"
+    ],
+    "nice_to_have_skills": [
+      "Framer Motion",
+      "Next.js",
+      "Figma",
+      "Radix UI"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-009",
+    "contact_email": "talent@aurainteractive.com"
+  },
+  {
+    "id": "opp-seed-010",
+    "title": "Junior Python Backend Developer",
+    "company": "Cortex Logistics",
+    "department": "Supply Chain Technology",
+    "work_mode": "hybrid",
+    "location": "Atlanta, GA",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 1,
+    "max_years_experience": 3,
+    "min_salary": 85000,
+    "max_salary": 110000,
+    "currency": "USD",
+    "description": "Join an agile logistics team digitizing fleet dispatch and warehouse operations. Great mentorship environment for early-career developers looking to master modern asynchronous Python.",
+    "responsibilities": [
+      "Develop and test REST API endpoints for dispatch tracking and load calculations.",
+      "Write relational queries and schema migrations in PostgreSQL and Alembic.",
+      "Troubleshoot staging environments and assist in production deployments."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "Git",
+      "REST APIs"
+    ],
+    "nice_to_have_skills": [
+      "Redis",
+      "SQLAlchemy",
+      "Pytest",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) matching up to 5%",
+      "Generous equity package with early-exercise options",
+      "$2,500 annual personal learning and conference budget",
+      "Home office setup stipend ($1,500)"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-010",
+    "contact_email": "talent@cortexlogistics.com"
+  },
+  {
+    "id": "opp-seed-011",
+    "title": "Staff AI Systems Engineer",
+    "company": "NexusScale Labs",
+    "department": "Product Growth",
+    "work_mode": "onsite",
+    "location": "Seattle, WA",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 123000,
+    "max_salary": 197000,
+    "currency": "USD",
+    "description": "NexusScale Labs is looking for a talented Staff AI Systems Engineer to join our Product Growth group in Seattle, WA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and PyTorch.",
+      "Optimize database queries, indices, and schema layouts in LLMs for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "Vector Databases",
+      "LangChain"
+    ],
+    "nice_to_have_skills": [
+      "vLLM",
+      "HuggingFace",
+      "FastAPI",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-011",
+    "contact_email": "talent@nexusscalelabs.com"
+  },
+  {
+    "id": "opp-seed-012",
+    "title": "Distributed Systems Architect",
+    "company": "OmniRoute Networks",
+    "department": "Data Products",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 77000,
+    "max_salary": 131000,
+    "currency": "USD",
+    "description": "OmniRoute Networks is looking for a talented Distributed Systems Architect to join our Data Products group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-012",
+    "contact_email": "talent@omniroutenetworks.com"
+  },
+  {
+    "id": "opp-seed-013",
+    "title": "Staff Core Platform Software Engineer",
+    "company": "NexusScale Labs",
+    "department": "Developer Tools",
+    "work_mode": "remote",
+    "location": "New York, NY (Remote)",
+    "opportunity_type": "contract",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 259000,
+    "max_salary": 358000,
+    "currency": "USD",
+    "description": "NexusScale Labs is looking for a talented Staff Core Platform Software Engineer to join our Developer Tools group in New York, NY (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-013",
+    "contact_email": "talent@nexusscalelabs.com"
+  },
+  {
+    "id": "opp-seed-014",
+    "title": "Cloud Infrastructure SRE",
+    "company": "Zenith Payments",
+    "department": "Security & SRE",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "contract",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 128000,
+    "max_salary": 184000,
+    "currency": "USD",
+    "description": "Zenith Payments is looking for a talented Cloud Infrastructure SRE to join our Security & SRE group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-014",
+    "contact_email": "talent@zenithpayments.com"
+  },
+  {
+    "id": "opp-seed-015",
+    "title": "Full Stack Software Engineer",
+    "company": "PulsePoint Health",
+    "department": "Applied AI",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "contract",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 81000,
+    "max_salary": 126000,
+    "currency": "USD",
+    "description": "PulsePoint Health is looking for a talented Full Stack Software Engineer to join our Applied AI group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Go and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Kubernetes for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "gRPC",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Docker",
+      "Raft",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-015",
+    "contact_email": "talent@pulsepointhealth.com"
+  },
+  {
+    "id": "opp-seed-016",
+    "title": "Core Platform Software Engineer Intern",
+    "company": "Aura Interactive",
+    "department": "Security & SRE",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 87000,
+    "max_salary": 112000,
+    "currency": "USD",
+    "description": "Aura Interactive is looking for a talented Core Platform Software Engineer Intern to join our Security & SRE group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Go and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Kubernetes for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "gRPC",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Docker",
+      "Raft",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-016",
+    "contact_email": "talent@aurainteractive.com"
+  },
+  {
+    "id": "opp-seed-017",
+    "title": "Staff Autonomous Agent Engineer",
+    "company": "Cortex Logistics",
+    "department": "Security & SRE",
+    "work_mode": "hybrid",
+    "location": "London, UK",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 251000,
+    "max_salary": 342000,
+    "currency": "USD",
+    "description": "Cortex Logistics is looking for a talented Staff Autonomous Agent Engineer to join our Security & SRE group in London, UK. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using React Native and TypeScript.",
+      "Optimize database queries, indices, and schema layouts in Mobile Development for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "React Native",
+      "TypeScript",
+      "Mobile Development",
+      "REST APIs"
+    ],
+    "nice_to_have_skills": [
+      "Redux",
+      "iOS",
+      "Android",
+      "GraphQL"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-017",
+    "contact_email": "talent@cortexlogistics.com"
+  },
+  {
+    "id": "opp-seed-018",
+    "title": "Senior Backend Engineer",
+    "company": "Vertex Scale",
+    "department": "Platform Infrastructure",
+    "work_mode": "hybrid",
+    "location": "Toronto, Canada",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 10,
+    "min_salary": 163000,
+    "max_salary": 247000,
+    "currency": "USD",
+    "description": "Vertex Scale is looking for a talented Senior Backend Engineer to join our Platform Infrastructure group in Toronto, Canada. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-018",
+    "contact_email": "talent@vertexscale.com"
+  },
+  {
+    "id": "opp-seed-019",
+    "title": "Senior Cloud Infrastructure SRE",
+    "company": "QuantEdge Financial",
+    "department": "Product Growth",
+    "work_mode": "remote",
+    "location": "Remote, United States",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 10,
+    "min_salary": 171000,
+    "max_salary": 241000,
+    "currency": "USD",
+    "description": "QuantEdge Financial is looking for a talented Senior Cloud Infrastructure SRE to join our Product Growth group in Remote, United States. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-019",
+    "contact_email": "talent@quantedgefinancial.com"
+  },
+  {
+    "id": "opp-seed-020",
+    "title": "Cloud Infrastructure SRE Intern",
+    "company": "Helix Medical AI",
+    "department": "Product Growth",
+    "work_mode": "hybrid",
+    "location": "London, UK",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 82000,
+    "max_salary": 115000,
+    "currency": "USD",
+    "description": "Helix Medical AI is looking for a talented Cloud Infrastructure SRE Intern to join our Product Growth group in London, UK. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and PyTorch.",
+      "Optimize database queries, indices, and schema layouts in LLMs for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "Vector Databases",
+      "LangChain"
+    ],
+    "nice_to_have_skills": [
+      "vLLM",
+      "HuggingFace",
+      "FastAPI",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-020",
+    "contact_email": "talent@helixmedicalai.com"
+  },
+  {
+    "id": "opp-seed-021",
+    "title": "Staff Search & Retrieval Engineer",
+    "company": "CloudMatrix",
+    "department": "Applied AI",
+    "work_mode": "remote",
+    "location": "Remote, Global",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 246000,
+    "max_salary": 347000,
+    "currency": "USD",
+    "description": "CloudMatrix is looking for a talented Staff Search & Retrieval Engineer to join our Applied AI group in Remote, Global. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-021",
+    "contact_email": "talent@cloudmatrix.com"
+  },
+  {
+    "id": "opp-seed-022",
+    "title": "Senior Backend Engineer",
+    "company": "Zenith Payments",
+    "department": "Applied AI",
+    "work_mode": "remote",
+    "location": "Austin, TX (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 10,
+    "min_salary": 170000,
+    "max_salary": 241000,
+    "currency": "USD",
+    "description": "Zenith Payments is looking for a talented Senior Backend Engineer to join our Applied AI group in Austin, TX (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-022",
+    "contact_email": "talent@zenithpayments.com"
+  },
+  {
+    "id": "opp-seed-023",
+    "title": "Backend Systems Engineer (Go/Rust)",
+    "company": "CloudMatrix",
+    "department": "Product Growth",
+    "work_mode": "hybrid",
+    "location": "Chicago, IL",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 127000,
+    "max_salary": 197000,
+    "currency": "USD",
+    "description": "CloudMatrix is looking for a talented Backend Systems Engineer (Go/Rust) to join our Product Growth group in Chicago, IL. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and PyTorch.",
+      "Optimize database queries, indices, and schema layouts in LLMs for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "Vector Databases",
+      "LangChain"
+    ],
+    "nice_to_have_skills": [
+      "vLLM",
+      "HuggingFace",
+      "FastAPI",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-023",
+    "contact_email": "talent@cloudmatrix.com"
+  },
+  {
+    "id": "opp-seed-024",
+    "title": "Autonomous Agent Engineer Intern",
+    "company": "Aura Interactive",
+    "department": "Product Growth",
+    "work_mode": "remote",
+    "location": "Denver, CO (Remote)",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 86000,
+    "max_salary": 117000,
+    "currency": "USD",
+    "description": "Aura Interactive is looking for a talented Autonomous Agent Engineer Intern to join our Product Growth group in Denver, CO (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-024",
+    "contact_email": "talent@aurainteractive.com"
+  },
+  {
+    "id": "opp-seed-025",
+    "title": "Machine Learning Platform Engineer",
+    "company": "Starlight Media Tech",
+    "department": "Data Products",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 75000,
+    "max_salary": 128000,
+    "currency": "USD",
+    "description": "Starlight Media Tech is looking for a talented Machine Learning Platform Engineer to join our Data Products group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and PyTorch.",
+      "Optimize database queries, indices, and schema layouts in LLMs for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "Vector Databases",
+      "LangChain"
+    ],
+    "nice_to_have_skills": [
+      "vLLM",
+      "HuggingFace",
+      "FastAPI",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-025",
+    "contact_email": "talent@starlightmediatech.com"
+  },
+  {
+    "id": "opp-seed-026",
+    "title": "Staff Core Platform Software Engineer",
+    "company": "CognitiveStream",
+    "department": "Data Products",
+    "work_mode": "remote",
+    "location": "Austin, TX (Remote)",
+    "opportunity_type": "contract",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 253000,
+    "max_salary": 357000,
+    "currency": "USD",
+    "description": "CognitiveStream is looking for a talented Staff Core Platform Software Engineer to join our Data Products group in Austin, TX (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Information Retrieval.",
+      "Optimize database queries, indices, and schema layouts in Sentence Transformers for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Information Retrieval",
+      "Sentence Transformers",
+      "pgvector"
+    ],
+    "nice_to_have_skills": [
+      "Elasticsearch",
+      "FastAPI",
+      "Cross-Encoders"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-026",
+    "contact_email": "talent@cognitivestream.com"
+  },
+  {
+    "id": "opp-seed-027",
+    "title": "Staff Backend Software Engineer",
+    "company": "Vertex Scale",
+    "department": "Product Growth",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 248000,
+    "max_salary": 349000,
+    "currency": "USD",
+    "description": "Vertex Scale is looking for a talented Staff Backend Software Engineer to join our Product Growth group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-027",
+    "contact_email": "talent@vertexscale.com"
+  },
+  {
+    "id": "opp-seed-028",
+    "title": "Applied AI Research Scientist Intern",
+    "company": "Aegis Cloud Systems",
+    "department": "Data Products",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 78000,
+    "max_salary": 130000,
+    "currency": "USD",
+    "description": "Aegis Cloud Systems is looking for a talented Applied AI Research Scientist Intern to join our Data Products group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and PyTorch.",
+      "Optimize database queries, indices, and schema layouts in LLMs for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "Vector Databases",
+      "LangChain"
+    ],
+    "nice_to_have_skills": [
+      "vLLM",
+      "HuggingFace",
+      "FastAPI",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-028",
+    "contact_email": "talent@aegiscloudsystems.com"
+  },
+  {
+    "id": "opp-seed-029",
+    "title": "Staff DevOps & Platform Engineer",
+    "company": "Apex Microservices",
+    "department": "Product Growth",
+    "work_mode": "onsite",
+    "location": "Boston, MA",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 256000,
+    "max_salary": 345000,
+    "currency": "USD",
+    "description": "Apex Microservices is looking for a talented Staff DevOps & Platform Engineer to join our Product Growth group in Boston, MA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and PyTorch.",
+      "Optimize database queries, indices, and schema layouts in LLMs for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "Vector Databases",
+      "LangChain"
+    ],
+    "nice_to_have_skills": [
+      "vLLM",
+      "HuggingFace",
+      "FastAPI",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-029",
+    "contact_email": "talent@apexmicroservices.com"
+  },
+  {
+    "id": "opp-seed-030",
+    "title": "Autonomous Agent Engineer Intern",
+    "company": "PulsePoint Health",
+    "department": "Developer Tools",
+    "work_mode": "remote",
+    "location": "Remote, Global",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 90000,
+    "max_salary": 110000,
+    "currency": "USD",
+    "description": "PulsePoint Health is looking for a talented Autonomous Agent Engineer Intern to join our Developer Tools group in Remote, Global. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-030",
+    "contact_email": "talent@pulsepointhealth.com"
+  },
+  {
+    "id": "opp-seed-031",
+    "title": "Staff AI Systems Engineer",
+    "company": "Orbital Telemetry",
+    "department": "Applied AI",
+    "work_mode": "remote",
+    "location": "Remote, Global",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 10,
+    "min_salary": 167000,
+    "max_salary": 253000,
+    "currency": "USD",
+    "description": "Orbital Telemetry is looking for a talented Staff AI Systems Engineer to join our Applied AI group in Remote, Global. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and FastAPI.",
+      "Optimize database queries, indices, and schema layouts in PostgreSQL for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "SQLAlchemy"
+    ],
+    "nice_to_have_skills": [
+      "Redis",
+      "Celery",
+      "AWS",
+      "Pytest"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-031",
+    "contact_email": "talent@orbitaltelemetry.com"
+  },
+  {
+    "id": "opp-seed-032",
+    "title": "Distributed Systems Architect Intern",
+    "company": "CognitiveStream",
+    "department": "Product Growth",
+    "work_mode": "hybrid",
+    "location": "Chicago, IL",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 79000,
+    "max_salary": 125000,
+    "currency": "USD",
+    "description": "CognitiveStream is looking for a talented Distributed Systems Architect Intern to join our Product Growth group in Chicago, IL. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and PyTorch.",
+      "Optimize database queries, indices, and schema layouts in LLMs for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "Vector Databases",
+      "LangChain"
+    ],
+    "nice_to_have_skills": [
+      "vLLM",
+      "HuggingFace",
+      "FastAPI",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-032",
+    "contact_email": "talent@cognitivestream.com"
+  },
+  {
+    "id": "opp-seed-033",
+    "title": "Staff Autonomous Agent Engineer",
+    "company": "Aegis Cloud Systems",
+    "department": "Applied AI",
+    "work_mode": "onsite",
+    "location": "Boston, MA",
+    "opportunity_type": "contract",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 251000,
+    "max_salary": 349000,
+    "currency": "USD",
+    "description": "Aegis Cloud Systems is looking for a talented Staff Autonomous Agent Engineer to join our Applied AI group in Boston, MA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-033",
+    "contact_email": "talent@aegiscloudsystems.com"
+  },
+  {
+    "id": "opp-seed-034",
+    "title": "Security Software Engineer Intern",
+    "company": "Vertex Scale",
+    "department": "Product Growth",
+    "work_mode": "hybrid",
+    "location": "Austin, TX",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 78000,
+    "max_salary": 117000,
+    "currency": "USD",
+    "description": "Vertex Scale is looking for a talented Security Software Engineer Intern to join our Product Growth group in Austin, TX. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-034",
+    "contact_email": "talent@vertexscale.com"
+  },
+  {
+    "id": "opp-seed-035",
+    "title": "Senior Frontend Engineer Intern",
+    "company": "CognitiveStream",
+    "department": "Applied AI",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 82000,
+    "max_salary": 110000,
+    "currency": "USD",
+    "description": "CognitiveStream is looking for a talented Senior Frontend Engineer Intern to join our Applied AI group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-035",
+    "contact_email": "talent@cognitivestream.com"
+  },
+  {
+    "id": "opp-seed-036",
+    "title": "Distributed Systems Architect",
+    "company": "Helix Medical AI",
+    "department": "Product Growth",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 130000,
+    "max_salary": 182000,
+    "currency": "USD",
+    "description": "Helix Medical AI is looking for a talented Distributed Systems Architect to join our Product Growth group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and FastAPI.",
+      "Optimize database queries, indices, and schema layouts in PostgreSQL for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "SQLAlchemy"
+    ],
+    "nice_to_have_skills": [
+      "Redis",
+      "Celery",
+      "AWS",
+      "Pytest"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-036",
+    "contact_email": "talent@helixmedicalai.com"
+  },
+  {
+    "id": "opp-seed-037",
+    "title": "AI Solutions Architect",
+    "company": "Finovate Global",
+    "department": "Applied AI",
+    "work_mode": "hybrid",
+    "location": "London, UK",
+    "opportunity_type": "full-time",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 209000,
+    "max_salary": 298000,
+    "currency": "USD",
+    "description": "Finovate Global is looking for a talented AI Solutions Architect to join our Applied AI group in London, UK. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Information Retrieval.",
+      "Optimize database queries, indices, and schema layouts in Sentence Transformers for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Information Retrieval",
+      "Sentence Transformers",
+      "pgvector"
+    ],
+    "nice_to_have_skills": [
+      "Elasticsearch",
+      "FastAPI",
+      "Cross-Encoders"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-037",
+    "contact_email": "talent@finovateglobal.com"
+  },
+  {
+    "id": "opp-seed-038",
+    "title": "Lead Database Internals Engineer",
+    "company": "BioGenix Informatics",
+    "department": "Platform Infrastructure",
+    "work_mode": "hybrid",
+    "location": "Toronto, Canada",
+    "opportunity_type": "contract",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 208000,
+    "max_salary": 283000,
+    "currency": "USD",
+    "description": "BioGenix Informatics is looking for a talented Lead Database Internals Engineer to join our Platform Infrastructure group in Toronto, Canada. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-038",
+    "contact_email": "talent@biogenixinformatics.com"
+  },
+  {
+    "id": "opp-seed-039",
+    "title": "Lead Applied AI Research Scientist",
+    "company": "Aether Robotics",
+    "department": "Data Products",
+    "work_mode": "remote",
+    "location": "Austin, TX (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 206000,
+    "max_salary": 292000,
+    "currency": "USD",
+    "description": "Aether Robotics is looking for a talented Lead Applied AI Research Scientist to join our Data Products group in Austin, TX (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Go and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Kubernetes for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "gRPC",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Docker",
+      "Raft",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-039",
+    "contact_email": "talent@aetherrobotics.com"
+  },
+  {
+    "id": "opp-seed-040",
+    "title": "Data Infrastructure Engineer",
+    "company": "Zenith Payments",
+    "department": "Security & SRE",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 134000,
+    "max_salary": 184000,
+    "currency": "USD",
+    "description": "Zenith Payments is looking for a talented Data Infrastructure Engineer to join our Security & SRE group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-040",
+    "contact_email": "talent@zenithpayments.com"
+  },
+  {
+    "id": "opp-seed-041",
+    "title": "Applied AI Research Scientist",
+    "company": "Aegis Cloud Systems",
+    "department": "Applied AI",
+    "work_mode": "hybrid",
+    "location": "Chicago, IL",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 123000,
+    "max_salary": 181000,
+    "currency": "USD",
+    "description": "Aegis Cloud Systems is looking for a talented Applied AI Research Scientist to join our Applied AI group in Chicago, IL. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-041",
+    "contact_email": "talent@aegiscloudsystems.com"
+  },
+  {
+    "id": "opp-seed-042",
+    "title": "Autonomous Agent Engineer",
+    "company": "Apex Microservices",
+    "department": "Core Engineering",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 135000,
+    "max_salary": 195000,
+    "currency": "USD",
+    "description": "Apex Microservices is looking for a talented Autonomous Agent Engineer to join our Core Engineering group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-042",
+    "contact_email": "talent@apexmicroservices.com"
+  },
+  {
+    "id": "opp-seed-043",
+    "title": "Full Stack Software Engineer",
+    "company": "Strata Data Labs",
+    "department": "Data Products",
+    "work_mode": "remote",
+    "location": "Remote, Global",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 70000,
+    "max_salary": 127000,
+    "currency": "USD",
+    "description": "Strata Data Labs is looking for a talented Full Stack Software Engineer to join our Data Products group in Remote, Global. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-043",
+    "contact_email": "talent@stratadatalabs.com"
+  },
+  {
+    "id": "opp-seed-044",
+    "title": "Lead Cloud Infrastructure SRE",
+    "company": "Orbital Telemetry",
+    "department": "Security & SRE",
+    "work_mode": "hybrid",
+    "location": "Toronto, Canada",
+    "opportunity_type": "full-time",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 220000,
+    "max_salary": 284000,
+    "currency": "USD",
+    "description": "Orbital Telemetry is looking for a talented Lead Cloud Infrastructure SRE to join our Security & SRE group in Toronto, Canada. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-044",
+    "contact_email": "talent@orbitaltelemetry.com"
+  },
+  {
+    "id": "opp-seed-045",
+    "title": "Full Stack Software Engineer Intern",
+    "company": "Cortex Logistics",
+    "department": "Platform Infrastructure",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 85000,
+    "max_salary": 111000,
+    "currency": "USD",
+    "description": "Cortex Logistics is looking for a talented Full Stack Software Engineer Intern to join our Platform Infrastructure group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and FastAPI.",
+      "Optimize database queries, indices, and schema layouts in PostgreSQL for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "SQLAlchemy"
+    ],
+    "nice_to_have_skills": [
+      "Redis",
+      "Celery",
+      "AWS",
+      "Pytest"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-045",
+    "contact_email": "talent@cortexlogistics.com"
+  },
+  {
+    "id": "opp-seed-046",
+    "title": "Staff Senior Backend Engineer",
+    "company": "OmniRoute Networks",
+    "department": "Data Products",
+    "work_mode": "onsite",
+    "location": "Boston, MA",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 247000,
+    "max_salary": 345000,
+    "currency": "USD",
+    "description": "OmniRoute Networks is looking for a talented Staff Senior Backend Engineer to join our Data Products group in Boston, MA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and FastAPI.",
+      "Optimize database queries, indices, and schema layouts in PostgreSQL for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "SQLAlchemy"
+    ],
+    "nice_to_have_skills": [
+      "Redis",
+      "Celery",
+      "AWS",
+      "Pytest"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-046",
+    "contact_email": "talent@omniroutenetworks.com"
+  },
+  {
+    "id": "opp-seed-047",
+    "title": "Distributed Systems Architect",
+    "company": "Kinetix Cloud",
+    "department": "Core Engineering",
+    "work_mode": "hybrid",
+    "location": "London, UK",
+    "opportunity_type": "contract",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 127000,
+    "max_salary": 198000,
+    "currency": "USD",
+    "description": "Kinetix Cloud is looking for a talented Distributed Systems Architect to join our Core Engineering group in London, UK. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Go and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Kubernetes for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "gRPC",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Docker",
+      "Raft",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-047",
+    "contact_email": "talent@kinetixcloud.com"
+  },
+  {
+    "id": "opp-seed-048",
+    "title": "Core Platform Software Engineer Intern",
+    "company": "Synthetix AI",
+    "department": "Developer Tools",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 85000,
+    "max_salary": 118000,
+    "currency": "USD",
+    "description": "Synthetix AI is looking for a talented Core Platform Software Engineer Intern to join our Developer Tools group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using React Native and TypeScript.",
+      "Optimize database queries, indices, and schema layouts in Mobile Development for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "React Native",
+      "TypeScript",
+      "Mobile Development",
+      "REST APIs"
+    ],
+    "nice_to_have_skills": [
+      "Redux",
+      "iOS",
+      "Android",
+      "GraphQL"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-048",
+    "contact_email": "talent@synthetixai.com"
+  },
+  {
+    "id": "opp-seed-049",
+    "title": "Full Stack Software Engineer",
+    "company": "Vertex Scale",
+    "department": "Product Growth",
+    "work_mode": "hybrid",
+    "location": "Austin, TX",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 124000,
+    "max_salary": 200000,
+    "currency": "USD",
+    "description": "Vertex Scale is looking for a talented Full Stack Software Engineer to join our Product Growth group in Austin, TX. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-049",
+    "contact_email": "talent@vertexscale.com"
+  },
+  {
+    "id": "opp-seed-050",
+    "title": "DevOps & Platform Engineer",
+    "company": "QuantEdge Financial",
+    "department": "Applied AI",
+    "work_mode": "remote",
+    "location": "Remote, Global",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 73000,
+    "max_salary": 117000,
+    "currency": "USD",
+    "description": "QuantEdge Financial is looking for a talented DevOps & Platform Engineer to join our Applied AI group in Remote, Global. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-050",
+    "contact_email": "talent@quantedgefinancial.com"
+  },
+  {
+    "id": "opp-seed-051",
+    "title": "Autonomous Agent Engineer",
+    "company": "DataPulse Corp",
+    "department": "Developer Tools",
+    "work_mode": "onsite",
+    "location": "Seattle, WA",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 127000,
+    "max_salary": 191000,
+    "currency": "USD",
+    "description": "DataPulse Corp is looking for a talented Autonomous Agent Engineer to join our Developer Tools group in Seattle, WA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Go and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Kubernetes for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "gRPC",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Docker",
+      "Raft",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-051",
+    "contact_email": "talent@datapulsecorp.com"
+  },
+  {
+    "id": "opp-seed-052",
+    "title": "Staff DevOps & Platform Engineer",
+    "company": "Aegis Cloud Systems",
+    "department": "Data Products",
+    "work_mode": "remote",
+    "location": "Remote, United States",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 245000,
+    "max_salary": 357000,
+    "currency": "USD",
+    "description": "Aegis Cloud Systems is looking for a talented Staff DevOps & Platform Engineer to join our Data Products group in Remote, United States. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using React Native and TypeScript.",
+      "Optimize database queries, indices, and schema layouts in Mobile Development for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "React Native",
+      "TypeScript",
+      "Mobile Development",
+      "REST APIs"
+    ],
+    "nice_to_have_skills": [
+      "Redux",
+      "iOS",
+      "Android",
+      "GraphQL"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-052",
+    "contact_email": "talent@aegiscloudsystems.com"
+  },
+  {
+    "id": "opp-seed-053",
+    "title": "DevOps & Platform Engineer",
+    "company": "Orbital Telemetry",
+    "department": "Product Growth",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 123000,
+    "max_salary": 197000,
+    "currency": "USD",
+    "description": "Orbital Telemetry is looking for a talented DevOps & Platform Engineer to join our Product Growth group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Go and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Kubernetes for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "gRPC",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Docker",
+      "Raft",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-053",
+    "contact_email": "talent@orbitaltelemetry.com"
+  },
+  {
+    "id": "opp-seed-054",
+    "title": "Machine Learning Platform Engineer",
+    "company": "Aura Interactive",
+    "department": "Applied AI",
+    "work_mode": "remote",
+    "location": "Denver, CO (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 128000,
+    "max_salary": 196000,
+    "currency": "USD",
+    "description": "Aura Interactive is looking for a talented Machine Learning Platform Engineer to join our Applied AI group in Denver, CO (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-054",
+    "contact_email": "talent@aurainteractive.com"
+  },
+  {
+    "id": "opp-seed-055",
+    "title": "Backend Systems Engineer (Go/Rust)",
+    "company": "Aura Interactive",
+    "department": "Security & SRE",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "contract",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 71000,
+    "max_salary": 115000,
+    "currency": "USD",
+    "description": "Aura Interactive is looking for a talented Backend Systems Engineer (Go/Rust) to join our Security & SRE group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Apache Spark.",
+      "Optimize database queries, indices, and schema layouts in Kafka for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Apache Spark",
+      "Kafka",
+      "SQL",
+      "Snowflake"
+    ],
+    "nice_to_have_skills": [
+      "dbt",
+      "Airflow",
+      "AWS S3",
+      "Databricks"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-055",
+    "contact_email": "talent@aurainteractive.com"
+  },
+  {
+    "id": "opp-seed-056",
+    "title": "Senior Data Infrastructure Engineer",
+    "company": "PulsePoint Health",
+    "department": "Platform Infrastructure",
+    "work_mode": "hybrid",
+    "location": "London, UK",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 10,
+    "min_salary": 173000,
+    "max_salary": 252000,
+    "currency": "USD",
+    "description": "PulsePoint Health is looking for a talented Senior Data Infrastructure Engineer to join our Platform Infrastructure group in London, UK. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-056",
+    "contact_email": "talent@pulsepointhealth.com"
+  },
+  {
+    "id": "opp-seed-057",
+    "title": "Backend Software Engineer Intern",
+    "company": "Vectura Search",
+    "department": "Core Engineering",
+    "work_mode": "remote",
+    "location": "Remote, Global",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 86000,
+    "max_salary": 128000,
+    "currency": "USD",
+    "description": "Vectura Search is looking for a talented Backend Software Engineer Intern to join our Core Engineering group in Remote, Global. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and FastAPI.",
+      "Optimize database queries, indices, and schema layouts in PostgreSQL for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "SQLAlchemy"
+    ],
+    "nice_to_have_skills": [
+      "Redis",
+      "Celery",
+      "AWS",
+      "Pytest"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-057",
+    "contact_email": "talent@vecturasearch.com"
+  },
+  {
+    "id": "opp-seed-058",
+    "title": "Autonomous Agent Engineer",
+    "company": "HyperLogic Technologies",
+    "department": "Data Products",
+    "work_mode": "hybrid",
+    "location": "New York, NY",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 71000,
+    "max_salary": 126000,
+    "currency": "USD",
+    "description": "HyperLogic Technologies is looking for a talented Autonomous Agent Engineer to join our Data Products group in New York, NY. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-058",
+    "contact_email": "talent@hyperlogictechnologies.com"
+  },
+  {
+    "id": "opp-seed-059",
+    "title": "Full Stack Software Engineer",
+    "company": "Vertex Scale",
+    "department": "Platform Infrastructure",
+    "work_mode": "hybrid",
+    "location": "London, UK",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 83000,
+    "max_salary": 134000,
+    "currency": "USD",
+    "description": "Vertex Scale is looking for a talented Full Stack Software Engineer to join our Platform Infrastructure group in London, UK. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Information Retrieval.",
+      "Optimize database queries, indices, and schema layouts in Sentence Transformers for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Information Retrieval",
+      "Sentence Transformers",
+      "pgvector"
+    ],
+    "nice_to_have_skills": [
+      "Elasticsearch",
+      "FastAPI",
+      "Cross-Encoders"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-059",
+    "contact_email": "talent@vertexscale.com"
+  },
+  {
+    "id": "opp-seed-060",
+    "title": "Machine Learning Platform Engineer",
+    "company": "Orbital Telemetry",
+    "department": "Platform Infrastructure",
+    "work_mode": "remote",
+    "location": "Remote, United States",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 120000,
+    "max_salary": 185000,
+    "currency": "USD",
+    "description": "Orbital Telemetry is looking for a talented Machine Learning Platform Engineer to join our Platform Infrastructure group in Remote, United States. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-060",
+    "contact_email": "talent@orbitaltelemetry.com"
+  },
+  {
+    "id": "opp-seed-061",
+    "title": "Data Infrastructure Engineer",
+    "company": "Zenith Payments",
+    "department": "Data Products",
+    "work_mode": "hybrid",
+    "location": "Toronto, Canada",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 123000,
+    "max_salary": 192000,
+    "currency": "USD",
+    "description": "Zenith Payments is looking for a talented Data Infrastructure Engineer to join our Data Products group in Toronto, Canada. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and PyTorch.",
+      "Optimize database queries, indices, and schema layouts in LLMs for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "Vector Databases",
+      "LangChain"
+    ],
+    "nice_to_have_skills": [
+      "vLLM",
+      "HuggingFace",
+      "FastAPI",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-061",
+    "contact_email": "talent@zenithpayments.com"
+  },
+  {
+    "id": "opp-seed-062",
+    "title": "Senior Backend Engineer",
+    "company": "Strata Data Labs",
+    "department": "Data Products",
+    "work_mode": "remote",
+    "location": "New York, NY (Remote)",
+    "opportunity_type": "contract",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 129000,
+    "max_salary": 187000,
+    "currency": "USD",
+    "description": "Strata Data Labs is looking for a talented Senior Backend Engineer to join our Data Products group in New York, NY (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-062",
+    "contact_email": "talent@stratadatalabs.com"
+  },
+  {
+    "id": "opp-seed-063",
+    "title": "Lead Senior Frontend Engineer",
+    "company": "NexusScale Labs",
+    "department": "Product Growth",
+    "work_mode": "remote",
+    "location": "New York, NY (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 207000,
+    "max_salary": 288000,
+    "currency": "USD",
+    "description": "NexusScale Labs is looking for a talented Lead Senior Frontend Engineer to join our Product Growth group in New York, NY (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Apache Spark.",
+      "Optimize database queries, indices, and schema layouts in Kafka for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Apache Spark",
+      "Kafka",
+      "SQL",
+      "Snowflake"
+    ],
+    "nice_to_have_skills": [
+      "dbt",
+      "Airflow",
+      "AWS S3",
+      "Databricks"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-063",
+    "contact_email": "talent@nexusscalelabs.com"
+  },
+  {
+    "id": "opp-seed-064",
+    "title": "Staff Real-Time Streaming Engineer",
+    "company": "DeepTensor Inc",
+    "department": "Developer Tools",
+    "work_mode": "remote",
+    "location": "Austin, TX (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 248000,
+    "max_salary": 348000,
+    "currency": "USD",
+    "description": "DeepTensor Inc is looking for a talented Staff Real-Time Streaming Engineer to join our Developer Tools group in Austin, TX (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and FastAPI.",
+      "Optimize database queries, indices, and schema layouts in PostgreSQL for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "SQLAlchemy"
+    ],
+    "nice_to_have_skills": [
+      "Redis",
+      "Celery",
+      "AWS",
+      "Pytest"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-064",
+    "contact_email": "talent@deeptensorinc.com"
+  },
+  {
+    "id": "opp-seed-065",
+    "title": "NLP Research Engineer Intern",
+    "company": "OmniRoute Networks",
+    "department": "Applied AI",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 86000,
+    "max_salary": 120000,
+    "currency": "USD",
+    "description": "OmniRoute Networks is looking for a talented NLP Research Engineer Intern to join our Applied AI group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-065",
+    "contact_email": "talent@omniroutenetworks.com"
+  },
+  {
+    "id": "opp-seed-066",
+    "title": "Applied AI Research Scientist Intern",
+    "company": "Kinetix Cloud",
+    "department": "Developer Tools",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 83000,
+    "max_salary": 111000,
+    "currency": "USD",
+    "description": "Kinetix Cloud is looking for a talented Applied AI Research Scientist Intern to join our Developer Tools group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-066",
+    "contact_email": "talent@kinetixcloud.com"
+  },
+  {
+    "id": "opp-seed-067",
+    "title": "Staff Applied AI Research Scientist",
+    "company": "NexusScale Labs",
+    "department": "Developer Tools",
+    "work_mode": "remote",
+    "location": "Remote, Global",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 258000,
+    "max_salary": 342000,
+    "currency": "USD",
+    "description": "NexusScale Labs is looking for a talented Staff Applied AI Research Scientist to join our Developer Tools group in Remote, Global. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-067",
+    "contact_email": "talent@nexusscalelabs.com"
+  },
+  {
+    "id": "opp-seed-068",
+    "title": "Data Infrastructure Engineer",
+    "company": "Kinetix Cloud",
+    "department": "Applied AI",
+    "work_mode": "hybrid",
+    "location": "London, UK",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 79000,
+    "max_salary": 128000,
+    "currency": "USD",
+    "description": "Kinetix Cloud is looking for a talented Data Infrastructure Engineer to join our Applied AI group in London, UK. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Information Retrieval.",
+      "Optimize database queries, indices, and schema layouts in Sentence Transformers for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Information Retrieval",
+      "Sentence Transformers",
+      "pgvector"
+    ],
+    "nice_to_have_skills": [
+      "Elasticsearch",
+      "FastAPI",
+      "Cross-Encoders"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-068",
+    "contact_email": "talent@kinetixcloud.com"
+  },
+  {
+    "id": "opp-seed-069",
+    "title": "Staff Data Infrastructure Engineer",
+    "company": "CloudMatrix",
+    "department": "Product Growth",
+    "work_mode": "onsite",
+    "location": "Seattle, WA",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 258000,
+    "max_salary": 352000,
+    "currency": "USD",
+    "description": "CloudMatrix is looking for a talented Staff Data Infrastructure Engineer to join our Product Growth group in Seattle, WA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-069",
+    "contact_email": "talent@cloudmatrix.com"
+  },
+  {
+    "id": "opp-seed-070",
+    "title": "NLP Research Engineer Intern",
+    "company": "Kinetix Cloud",
+    "department": "Developer Tools",
+    "work_mode": "onsite",
+    "location": "Seattle, WA",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 84000,
+    "max_salary": 119000,
+    "currency": "USD",
+    "description": "Kinetix Cloud is looking for a talented NLP Research Engineer Intern to join our Developer Tools group in Seattle, WA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and FastAPI.",
+      "Optimize database queries, indices, and schema layouts in PostgreSQL for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "SQLAlchemy"
+    ],
+    "nice_to_have_skills": [
+      "Redis",
+      "Celery",
+      "AWS",
+      "Pytest"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-070",
+    "contact_email": "talent@kinetixcloud.com"
+  },
+  {
+    "id": "opp-seed-071",
+    "title": "Staff Full Stack Software Engineer",
+    "company": "NovaByte Systems",
+    "department": "Security & SRE",
+    "work_mode": "remote",
+    "location": "Denver, CO (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 259000,
+    "max_salary": 354000,
+    "currency": "USD",
+    "description": "NovaByte Systems is looking for a talented Staff Full Stack Software Engineer to join our Security & SRE group in Denver, CO (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-071",
+    "contact_email": "talent@novabytesystems.com"
+  },
+  {
+    "id": "opp-seed-072",
+    "title": "Full Stack Software Engineer",
+    "company": "Starlight Media Tech",
+    "department": "Data Products",
+    "work_mode": "hybrid",
+    "location": "Toronto, Canada",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 130000,
+    "max_salary": 182000,
+    "currency": "USD",
+    "description": "Starlight Media Tech is looking for a talented Full Stack Software Engineer to join our Data Products group in Toronto, Canada. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Apache Spark.",
+      "Optimize database queries, indices, and schema layouts in Kafka for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Apache Spark",
+      "Kafka",
+      "SQL",
+      "Snowflake"
+    ],
+    "nice_to_have_skills": [
+      "dbt",
+      "Airflow",
+      "AWS S3",
+      "Databricks"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-072",
+    "contact_email": "talent@starlightmediatech.com"
+  },
+  {
+    "id": "opp-seed-073",
+    "title": "Senior Frontend Engineer",
+    "company": "Vertex Scale",
+    "department": "Applied AI",
+    "work_mode": "remote",
+    "location": "New York, NY (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 121000,
+    "max_salary": 187000,
+    "currency": "USD",
+    "description": "Vertex Scale is looking for a talented Senior Frontend Engineer to join our Applied AI group in New York, NY (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and FastAPI.",
+      "Optimize database queries, indices, and schema layouts in PostgreSQL for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "SQLAlchemy"
+    ],
+    "nice_to_have_skills": [
+      "Redis",
+      "Celery",
+      "AWS",
+      "Pytest"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-073",
+    "contact_email": "talent@vertexscale.com"
+  },
+  {
+    "id": "opp-seed-074",
+    "title": "Backend Systems Engineer (Go/Rust)",
+    "company": "Kinetix Cloud",
+    "department": "Security & SRE",
+    "work_mode": "hybrid",
+    "location": "Toronto, Canada",
+    "opportunity_type": "contract",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 76000,
+    "max_salary": 127000,
+    "currency": "USD",
+    "description": "Kinetix Cloud is looking for a talented Backend Systems Engineer (Go/Rust) to join our Security & SRE group in Toronto, Canada. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-074",
+    "contact_email": "talent@kinetixcloud.com"
+  },
+  {
+    "id": "opp-seed-075",
+    "title": "Backend Systems Engineer (Go/Rust)",
+    "company": "CloudMatrix",
+    "department": "Platform Infrastructure",
+    "work_mode": "hybrid",
+    "location": "New York, NY",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 77000,
+    "max_salary": 120000,
+    "currency": "USD",
+    "description": "CloudMatrix is looking for a talented Backend Systems Engineer (Go/Rust) to join our Platform Infrastructure group in New York, NY. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-075",
+    "contact_email": "talent@cloudmatrix.com"
+  },
+  {
+    "id": "opp-seed-076",
+    "title": "AI Solutions Architect",
+    "company": "QuantEdge Financial",
+    "department": "Core Engineering",
+    "work_mode": "onsite",
+    "location": "Boston, MA",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 124000,
+    "max_salary": 194000,
+    "currency": "USD",
+    "description": "QuantEdge Financial is looking for a talented AI Solutions Architect to join our Core Engineering group in Boston, MA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-076",
+    "contact_email": "talent@quantedgefinancial.com"
+  },
+  {
+    "id": "opp-seed-077",
+    "title": "AI Solutions Architect Intern",
+    "company": "Veritas CyberSec",
+    "department": "Developer Tools",
+    "work_mode": "hybrid",
+    "location": "Austin, TX",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 88000,
+    "max_salary": 127000,
+    "currency": "USD",
+    "description": "Veritas CyberSec is looking for a talented AI Solutions Architect Intern to join our Developer Tools group in Austin, TX. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Information Retrieval.",
+      "Optimize database queries, indices, and schema layouts in Sentence Transformers for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Information Retrieval",
+      "Sentence Transformers",
+      "pgvector"
+    ],
+    "nice_to_have_skills": [
+      "Elasticsearch",
+      "FastAPI",
+      "Cross-Encoders"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-077",
+    "contact_email": "talent@veritascybersec.com"
+  },
+  {
+    "id": "opp-seed-078",
+    "title": "Lead Search & Retrieval Engineer",
+    "company": "VectorShift",
+    "department": "Platform Infrastructure",
+    "work_mode": "remote",
+    "location": "London, UK (Remote)",
+    "opportunity_type": "contract",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 212000,
+    "max_salary": 300000,
+    "currency": "USD",
+    "description": "VectorShift is looking for a talented Lead Search & Retrieval Engineer to join our Platform Infrastructure group in London, UK (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Apache Spark.",
+      "Optimize database queries, indices, and schema layouts in Kafka for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Apache Spark",
+      "Kafka",
+      "SQL",
+      "Snowflake"
+    ],
+    "nice_to_have_skills": [
+      "dbt",
+      "Airflow",
+      "AWS S3",
+      "Databricks"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-078",
+    "contact_email": "talent@vectorshift.com"
+  },
+  {
+    "id": "opp-seed-079",
+    "title": "Lead Cloud Infrastructure SRE",
+    "company": "PulsePoint Health",
+    "department": "Security & SRE",
+    "work_mode": "onsite",
+    "location": "Boston, MA",
+    "opportunity_type": "full-time",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 219000,
+    "max_salary": 282000,
+    "currency": "USD",
+    "description": "PulsePoint Health is looking for a talented Lead Cloud Infrastructure SRE to join our Security & SRE group in Boston, MA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Apache Spark.",
+      "Optimize database queries, indices, and schema layouts in Kafka for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Apache Spark",
+      "Kafka",
+      "SQL",
+      "Snowflake"
+    ],
+    "nice_to_have_skills": [
+      "dbt",
+      "Airflow",
+      "AWS S3",
+      "Databricks"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-079",
+    "contact_email": "talent@pulsepointhealth.com"
+  },
+  {
+    "id": "opp-seed-080",
+    "title": "DevOps & Platform Engineer Intern",
+    "company": "Finovate Global",
+    "department": "Applied AI",
+    "work_mode": "hybrid",
+    "location": "Austin, TX",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 79000,
+    "max_salary": 114000,
+    "currency": "USD",
+    "description": "Finovate Global is looking for a talented DevOps & Platform Engineer Intern to join our Applied AI group in Austin, TX. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Go and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Kubernetes for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "gRPC",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Docker",
+      "Raft",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-080",
+    "contact_email": "talent@finovateglobal.com"
+  },
+  {
+    "id": "opp-seed-081",
+    "title": "Senior Frontend Engineer",
+    "company": "CloudMatrix",
+    "department": "Product Growth",
+    "work_mode": "hybrid",
+    "location": "New York, NY",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 133000,
+    "max_salary": 190000,
+    "currency": "USD",
+    "description": "CloudMatrix is looking for a talented Senior Frontend Engineer to join our Product Growth group in New York, NY. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-081",
+    "contact_email": "talent@cloudmatrix.com"
+  },
+  {
+    "id": "opp-seed-082",
+    "title": "Autonomous Agent Engineer",
+    "company": "QuantEdge Financial",
+    "department": "Data Products",
+    "work_mode": "hybrid",
+    "location": "San Francisco, CA",
+    "opportunity_type": "contract",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 120000,
+    "max_salary": 198000,
+    "currency": "USD",
+    "description": "QuantEdge Financial is looking for a talented Autonomous Agent Engineer to join our Data Products group in San Francisco, CA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-082",
+    "contact_email": "talent@quantedgefinancial.com"
+  },
+  {
+    "id": "opp-seed-083",
+    "title": "Senior Security Software Engineer",
+    "company": "BioGenix Informatics",
+    "department": "Core Engineering",
+    "work_mode": "hybrid",
+    "location": "Austin, TX",
+    "opportunity_type": "contract",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 10,
+    "min_salary": 167000,
+    "max_salary": 250000,
+    "currency": "USD",
+    "description": "BioGenix Informatics is looking for a talented Senior Security Software Engineer to join our Core Engineering group in Austin, TX. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-083",
+    "contact_email": "talent@biogenixinformatics.com"
+  },
+  {
+    "id": "opp-seed-084",
+    "title": "Senior Frontend Engineer",
+    "company": "Aura Interactive",
+    "department": "Data Products",
+    "work_mode": "hybrid",
+    "location": "Chicago, IL",
+    "opportunity_type": "contract",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 82000,
+    "max_salary": 120000,
+    "currency": "USD",
+    "description": "Aura Interactive is looking for a talented Senior Frontend Engineer to join our Data Products group in Chicago, IL. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-084",
+    "contact_email": "talent@aurainteractive.com"
+  },
+  {
+    "id": "opp-seed-085",
+    "title": "Staff Search & Retrieval Engineer",
+    "company": "Orbital Telemetry",
+    "department": "Platform Infrastructure",
+    "work_mode": "remote",
+    "location": "Denver, CO (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 245000,
+    "max_salary": 342000,
+    "currency": "USD",
+    "description": "Orbital Telemetry is looking for a talented Staff Search & Retrieval Engineer to join our Platform Infrastructure group in Denver, CO (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-085",
+    "contact_email": "talent@orbitaltelemetry.com"
+  },
+  {
+    "id": "opp-seed-086",
+    "title": "Applied AI Research Scientist",
+    "company": "HyperLogic Technologies",
+    "department": "Security & SRE",
+    "work_mode": "hybrid",
+    "location": "Chicago, IL",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 132000,
+    "max_salary": 190000,
+    "currency": "USD",
+    "description": "HyperLogic Technologies is looking for a talented Applied AI Research Scientist to join our Security & SRE group in Chicago, IL. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Apache Spark.",
+      "Optimize database queries, indices, and schema layouts in Kafka for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Apache Spark",
+      "Kafka",
+      "SQL",
+      "Snowflake"
+    ],
+    "nice_to_have_skills": [
+      "dbt",
+      "Airflow",
+      "AWS S3",
+      "Databricks"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-086",
+    "contact_email": "talent@hyperlogictechnologies.com"
+  },
+  {
+    "id": "opp-seed-087",
+    "title": "Lead Full Stack Software Engineer",
+    "company": "QuantEdge Financial",
+    "department": "Applied AI",
+    "work_mode": "hybrid",
+    "location": "Austin, TX",
+    "opportunity_type": "full-time",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 213000,
+    "max_salary": 282000,
+    "currency": "USD",
+    "description": "QuantEdge Financial is looking for a talented Lead Full Stack Software Engineer to join our Applied AI group in Austin, TX. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-087",
+    "contact_email": "talent@quantedgefinancial.com"
+  },
+  {
+    "id": "opp-seed-088",
+    "title": "Backend Systems Engineer (Go/Rust)",
+    "company": "NexusScale Labs",
+    "department": "Product Growth",
+    "work_mode": "onsite",
+    "location": "Boston, MA",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 72000,
+    "max_salary": 135000,
+    "currency": "USD",
+    "description": "NexusScale Labs is looking for a talented Backend Systems Engineer (Go/Rust) to join our Product Growth group in Boston, MA. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-088",
+    "contact_email": "talent@nexusscalelabs.com"
+  },
+  {
+    "id": "opp-seed-089",
+    "title": "Senior Backend Engineer",
+    "company": "PulsePoint Health",
+    "department": "Core Engineering",
+    "work_mode": "remote",
+    "location": "New York, NY (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 124000,
+    "max_salary": 187000,
+    "currency": "USD",
+    "description": "PulsePoint Health is looking for a talented Senior Backend Engineer to join our Core Engineering group in New York, NY (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using React Native and TypeScript.",
+      "Optimize database queries, indices, and schema layouts in Mobile Development for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "React Native",
+      "TypeScript",
+      "Mobile Development",
+      "REST APIs"
+    ],
+    "nice_to_have_skills": [
+      "Redux",
+      "iOS",
+      "Android",
+      "GraphQL"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-089",
+    "contact_email": "talent@pulsepointhealth.com"
+  },
+  {
+    "id": "opp-seed-090",
+    "title": "Staff Machine Learning Platform Engineer",
+    "company": "BioGenix Informatics",
+    "department": "Product Growth",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 253000,
+    "max_salary": 351000,
+    "currency": "USD",
+    "description": "BioGenix Informatics is looking for a talented Staff Machine Learning Platform Engineer to join our Product Growth group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-090",
+    "contact_email": "talent@biogenixinformatics.com"
+  },
+  {
+    "id": "opp-seed-091",
+    "title": "NLP Research Engineer",
+    "company": "Kinetix Cloud",
+    "department": "Developer Tools",
+    "work_mode": "remote",
+    "location": "London, UK (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 73000,
+    "max_salary": 133000,
+    "currency": "USD",
+    "description": "Kinetix Cloud is looking for a talented NLP Research Engineer to join our Developer Tools group in London, UK (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Apache Spark.",
+      "Optimize database queries, indices, and schema layouts in Kafka for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Apache Spark",
+      "Kafka",
+      "SQL",
+      "Snowflake"
+    ],
+    "nice_to_have_skills": [
+      "dbt",
+      "Airflow",
+      "AWS S3",
+      "Databricks"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-091",
+    "contact_email": "talent@kinetixcloud.com"
+  },
+  {
+    "id": "opp-seed-092",
+    "title": "Lead Backend Software Engineer",
+    "company": "Orbital Telemetry",
+    "department": "Applied AI",
+    "work_mode": "remote",
+    "location": "Denver, CO (Remote)",
+    "opportunity_type": "contract",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 207000,
+    "max_salary": 298000,
+    "currency": "USD",
+    "description": "Orbital Telemetry is looking for a talented Lead Backend Software Engineer to join our Applied AI group in Denver, CO (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using TypeScript and Next.js.",
+      "Optimize database queries, indices, and schema layouts in React for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "nice_to_have_skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "Docker",
+      "Zustand"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-092",
+    "contact_email": "talent@orbitaltelemetry.com"
+  },
+  {
+    "id": "opp-seed-093",
+    "title": "Senior Frontend Engineer Intern",
+    "company": "Vectura Search",
+    "department": "Product Growth",
+    "work_mode": "hybrid",
+    "location": "Toronto, Canada",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 76000,
+    "max_salary": 121000,
+    "currency": "USD",
+    "description": "Vectura Search is looking for a talented Senior Frontend Engineer Intern to join our Product Growth group in Toronto, Canada. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Go and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Kubernetes for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Go",
+      "Distributed Systems",
+      "Kubernetes",
+      "gRPC",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Docker",
+      "Raft",
+      "AWS"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-093",
+    "contact_email": "talent@vecturasearch.com"
+  },
+  {
+    "id": "opp-seed-094",
+    "title": "Autonomous Agent Engineer Intern",
+    "company": "NovaByte Systems",
+    "department": "Product Growth",
+    "work_mode": "hybrid",
+    "location": "Austin, TX",
+    "opportunity_type": "internship",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 1,
+    "min_salary": 75000,
+    "max_salary": 123000,
+    "currency": "USD",
+    "description": "NovaByte Systems is looking for a talented Autonomous Agent Engineer Intern to join our Product Growth group in Austin, TX. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Terraform and Kubernetes.",
+      "Optimize database queries, indices, and schema layouts in AWS for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Prometheus",
+      "Grafana",
+      "Python"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-094",
+    "contact_email": "talent@novabytesystems.com"
+  },
+  {
+    "id": "opp-seed-095",
+    "title": "Lead Backend Systems Engineer (Go/Rust)",
+    "company": "Vectura Search",
+    "department": "Data Products",
+    "work_mode": "hybrid",
+    "location": "Austin, TX",
+    "opportunity_type": "full-time",
+    "experience_level": "lead",
+    "min_years_experience": 7,
+    "max_years_experience": 14,
+    "min_salary": 210000,
+    "max_salary": 296000,
+    "currency": "USD",
+    "description": "Vectura Search is looking for a talented Lead Backend Systems Engineer (Go/Rust) to join our Data Products group in Austin, TX. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Rust and Distributed Systems.",
+      "Optimize database queries, indices, and schema layouts in Concurrency for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Rust",
+      "Distributed Systems",
+      "Concurrency",
+      "Linux",
+      "Networking"
+    ],
+    "nice_to_have_skills": [
+      "WebAssembly",
+      "C++",
+      "gRPC",
+      "Docker"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-095",
+    "contact_email": "talent@vecturasearch.com"
+  },
+  {
+    "id": "opp-seed-096",
+    "title": "Staff Cloud Infrastructure SRE",
+    "company": "Kinetix Cloud",
+    "department": "Security & SRE",
+    "work_mode": "remote",
+    "location": "Remote, Global",
+    "opportunity_type": "contract",
+    "experience_level": "staff",
+    "min_years_experience": 10,
+    "max_years_experience": 18,
+    "min_salary": 258000,
+    "max_salary": 358000,
+    "currency": "USD",
+    "description": "Kinetix Cloud is looking for a talented Staff Cloud Infrastructure SRE to join our Security & SRE group in Remote, Global. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-096",
+    "contact_email": "talent@kinetixcloud.com"
+  },
+  {
+    "id": "opp-seed-097",
+    "title": "Cloud Infrastructure SRE",
+    "company": "Prism Analytics",
+    "department": "Security & SRE",
+    "work_mode": "remote",
+    "location": "New York, NY (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "entry",
+    "min_years_experience": 0,
+    "max_years_experience": 2,
+    "min_salary": 77000,
+    "max_salary": 129000,
+    "currency": "USD",
+    "description": "Prism Analytics is looking for a talented Cloud Infrastructure SRE to join our Security & SRE group in New York, NY (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-097",
+    "contact_email": "talent@prismanalytics.com"
+  },
+  {
+    "id": "opp-seed-098",
+    "title": "Senior Database Internals Engineer",
+    "company": "Kinetix Cloud",
+    "department": "Product Growth",
+    "work_mode": "remote",
+    "location": "Austin, TX (Remote)",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 10,
+    "min_salary": 170000,
+    "max_salary": 240000,
+    "currency": "USD",
+    "description": "Kinetix Cloud is looking for a talented Senior Database Internals Engineer to join our Product Growth group in Austin, TX (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-098",
+    "contact_email": "talent@kinetixcloud.com"
+  },
+  {
+    "id": "opp-seed-099",
+    "title": "Senior Backend Systems Engineer (Go/Rust)",
+    "company": "DataPulse Corp",
+    "department": "Applied AI",
+    "work_mode": "hybrid",
+    "location": "Toronto, Canada",
+    "opportunity_type": "full-time",
+    "experience_level": "senior",
+    "min_years_experience": 5,
+    "max_years_experience": 10,
+    "min_salary": 168000,
+    "max_salary": 252000,
+    "currency": "USD",
+    "description": "DataPulse Corp is looking for a talented Senior Backend Systems Engineer (Go/Rust) to join our Applied AI group in Toronto, Canada. In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Python and Apache Spark.",
+      "Optimize database queries, indices, and schema layouts in Kafka for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Python",
+      "Apache Spark",
+      "Kafka",
+      "SQL",
+      "Snowflake"
+    ],
+    "nice_to_have_skills": [
+      "dbt",
+      "Airflow",
+      "AWS S3",
+      "Databricks"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-099",
+    "contact_email": "talent@datapulsecorp.com"
+  },
+  {
+    "id": "opp-seed-100",
+    "title": "Backend Software Engineer",
+    "company": "Starlight Media Tech",
+    "department": "Platform Infrastructure",
+    "work_mode": "remote",
+    "location": "San Francisco, CA (Remote)",
+    "opportunity_type": "contract",
+    "experience_level": "mid",
+    "min_years_experience": 2,
+    "max_years_experience": 6,
+    "min_salary": 127000,
+    "max_salary": 195000,
+    "currency": "USD",
+    "description": "Starlight Media Tech is looking for a talented Backend Software Engineer to join our Platform Infrastructure group in San Francisco, CA (Remote). In this role, you will collaborate with cross-functional product, platform, and AI engineering teams to architect resilient services, optimize data pipelines, and ship production features serving hundreds of thousands of users. Key focus areas include robust test-driven software design, distributed data consistency, and high-performance computation.",
+    "responsibilities": [
+      "Design and maintain scalable microservices using Java and Spring Boot.",
+      "Optimize database queries, indices, and schema layouts in Microservices for low latency.",
+      "Partner with team leads to participate in architectural reviews, automated testing, and CI/CD releases.",
+      "Drive system reliability, observability, and metrics using modern telemetry frameworks."
+    ],
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "401(k) retirement plan with match",
+      "Flexible paid time off (PTO)",
+      "Annual hardware & learning budget"
+    ],
+    "is_synthetic": true,
+    "source": "synthetic_seed_v1",
+    "application_url": "https://careers.example.com/opp-seed-100",
+    "contact_email": "talent@starlightmediatech.com"
+  }
+]

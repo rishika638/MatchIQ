@@ -1,0 +1,2973 @@
+[
+  {
+    "query_id": "eval-q01",
+    "query": "I want a backend engineering internship involving Python, distributed systems and AI.",
+    "candidate_profile": {
+      "title": "Computer Science Student / Software Engineering Intern",
+      "years_experience": 1,
+      "skills": [
+        "Python",
+        "FastAPI",
+        "Distributed Systems",
+        "Docker",
+        "PyTorch"
+      ],
+      "preferred_opportunity_types": [
+        "internship"
+      ],
+      "preferred_locations": [
+        "Seattle, WA",
+        "Remote, United States"
+      ]
+    },
+    "intent": "Junior candidate looking for entry-level / internship role combining Python backend with distributed AI workloads.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-002",
+        "grade": 3,
+        "rationale": "Perfect match: Backend Engineering Intern - Distributed AI using Python, FastAPI, Docker."
+      },
+      {
+        "opp_search_skill": "Python, Distributed Systems",
+        "min_grade": 2
+      },
+      {
+        "opportunity_id": "opp-seed-010",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-016",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-020",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-024",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-028",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-030",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-032",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-034",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-035",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-036",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-045",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-046",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-048",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-057",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-064",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-065",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-070",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-077",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-080",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-093",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-094",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      }
+    ]
+  },
+  {
+    "query_id": "eval-q02",
+    "query": "Senior Distributed Systems engineer experienced with Go, Kubernetes and Kafka for high-throughput messaging.",
+    "candidate_profile": {
+      "title": "Senior Backend Systems Engineer",
+      "years_experience": 7,
+      "skills": [
+        "Go",
+        "Distributed Systems",
+        "Kubernetes",
+        "Kafka",
+        "gRPC",
+        "PostgreSQL"
+      ],
+      "preferred_opportunity_types": [
+        "full-time"
+      ],
+      "preferred_locations": [
+        "San Francisco, CA (Remote)",
+        "Remote, United States"
+      ]
+    },
+    "intent": "Senior Go engineer seeking high throughput distributed infrastructure positions.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-001",
+        "grade": 3,
+        "rationale": "Direct title, tech stack (Go, K8s, Kafka, gRPC), and senior experience match."
+      },
+      {
+        "opportunity_id": "opp-seed-002",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-003",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-006",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-007",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-008",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-009",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-010",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-011",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-012",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-014",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-015",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-016",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-018",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-019",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-021",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-022",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-023",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-024",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-027",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-030",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-032",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-034",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-035",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-036",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-039",
+        "grade": 1,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-041",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-042",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-043",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-044",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-045",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-046",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-047",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-049",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-050",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-051",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-053",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-055",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-056",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-057",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-058",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-060",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-062",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-063",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-064",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-065",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-067",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-070",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-071",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-072",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-074",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-075",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-076",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-078",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-079",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-080",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-081",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-082",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-083",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-084",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-085",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-086",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-087",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-088",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-089",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-090",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-091",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-093",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-094",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-095",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-096",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-097",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-098",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-099",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-100",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      }
+    ]
+  },
+  {
+    "query_id": "eval-q03",
+    "query": "Machine learning and NLP search role utilizing Sentence Transformers, vector databases, and neural reranking.",
+    "candidate_profile": {
+      "title": "Machine Learning Engineer",
+      "years_experience": 4,
+      "skills": [
+        "Python",
+        "Sentence Transformers",
+        "pgvector",
+        "Information Retrieval",
+        "Elasticsearch"
+      ],
+      "preferred_opportunity_types": [
+        "full-time"
+      ],
+      "preferred_locations": [
+        "Austin, TX (Remote)",
+        "Remote, United States"
+      ]
+    },
+    "intent": "Information retrieval and NLP specialist looking for semantic search and reranking roles.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-004",
+        "grade": 3,
+        "rationale": "Exact match for ML Engineer - NLP & Search with Sentence Transformers, pgvector, and reranking."
+      },
+      {
+        "opportunity_id": "opp-seed-002",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-003",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-005",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-006",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-007",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-010",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-011",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-020",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-021",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-023",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-025",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-026",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-028",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-029",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-032",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-036",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-037",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-045",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-046",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-054",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-055",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-057",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-059",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-060",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-061",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-063",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-064",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-068",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-070",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-072",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-077",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-078",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-079",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-085",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-086",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-090",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-091",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-099",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      }
+    ]
+  },
+  {
+    "query_id": "eval-q04",
+    "query": "Full stack engineer proficient in Next.js, React, TypeScript and FastAPI building interactive AI web applications.",
+    "candidate_profile": {
+      "title": "Full Stack Engineer",
+      "years_experience": 4,
+      "skills": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Python",
+        "FastAPI",
+        "Tailwind CSS"
+      ],
+      "preferred_opportunity_types": [
+        "full-time"
+      ],
+      "preferred_locations": [
+        "San Francisco, CA",
+        "Remote, United States"
+      ]
+    },
+    "intent": "Modern web full-stack engineer targeting AI-driven user experience positions.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-005",
+        "grade": 3,
+        "rationale": "Direct match for Full Stack Engineer - AI Experiences using Next.js, React, TypeScript, FastAPI."
+      },
+      {
+        "opportunity_id": "opp-seed-002",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-003",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-004",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-006",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-007",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-009",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-010",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-011",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-012",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-013",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-015",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-017",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-018",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-020",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-022",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-023",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-025",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-026",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-028",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-029",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-032",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-033",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-035",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-036",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-037",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-038",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-040",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-043",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-045",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-046",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-048",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-049",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-052",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-054",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-055",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-057",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-059",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-061",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-063",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-064",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-066",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-068",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-069",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-070",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-071",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-072",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-077",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-078",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-079",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-086",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-087",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-088",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-089",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-091",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-092",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-099",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      }
+    ]
+  },
+  {
+    "query_id": "eval-q05",
+    "query": "Cloud infrastructure SRE and security engineer with Terraform, AWS, and Kubernetes automation experience.",
+    "candidate_profile": {
+      "title": "Senior DevOps / SRE",
+      "years_experience": 6,
+      "skills": [
+        "Terraform",
+        "AWS",
+        "Kubernetes",
+        "Linux",
+        "CI/CD",
+        "Docker",
+        "Python"
+      ],
+      "preferred_opportunity_types": [
+        "full-time"
+      ],
+      "preferred_locations": [
+        "Chicago, IL (Remote)",
+        "Remote, United States"
+      ]
+    },
+    "intent": "Senior SRE seeking cloud infrastructure, Terraform, and zero-trust security positions.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-006",
+        "grade": 3,
+        "rationale": "Exact alignment with Senior Cloud SRE & Security Engineer requirements and tech stack."
+      },
+      {
+        "opportunity_id": "opp-seed-001",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-002",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-003",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-004",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-005",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-007",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-010",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-011",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-014",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-015",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-016",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-019",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-020",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-021",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-023",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-024",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-025",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-026",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-027",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-028",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-029",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-030",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-032",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-034",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-036",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-037",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-039",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-040",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-042",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-043",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-044",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-045",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-046",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-047",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-049",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-051",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-053",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-055",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-056",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-057",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-058",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-059",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-060",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-061",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-062",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-063",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-064",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-065",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-067",
+        "grade": 1,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-068",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-069",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-070",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-072",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-074",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-075",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-077",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-078",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-079",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-080",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-081",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-082",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-083",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-084",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-085",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-086",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-087",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-091",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-093",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-094",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-095",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-096",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-097",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-099",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      }
+    ]
+  },
+  {
+    "query_id": "eval-q06",
+    "query": "Data engineering streaming role working with Apache Kafka, Spark, and Snowflake data warehouses.",
+    "candidate_profile": {
+      "title": "Data Engineer",
+      "years_experience": 4,
+      "skills": [
+        "Python",
+        "Apache Kafka",
+        "Apache Spark",
+        "SQL",
+        "Snowflake",
+        "dbt"
+      ],
+      "preferred_opportunity_types": [
+        "full-time"
+      ],
+      "preferred_locations": [
+        "Boston, MA",
+        "Remote, United States"
+      ]
+    },
+    "intent": "Data platform engineer focused on real-time streaming pipelines and modern data warehouse analytics.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-007",
+        "grade": 3,
+        "rationale": "Direct match with Data Platform Engineer - Streaming & Analytics."
+      },
+      {
+        "opportunity_id": "opp-seed-001",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-002",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-003",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-004",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-005",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-006",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-008",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-010",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-011",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-015",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-016",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-020",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-023",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-025",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-026",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-028",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-029",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-032",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-034",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-036",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-037",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-039",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-040",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-041",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-045",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-046",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-047",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-050",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-051",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-053",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-055",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-056",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-057",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-059",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-061",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-063",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-064",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-068",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-069",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-070",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-071",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-072",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-076",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-077",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-078",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-079",
+        "grade": 1,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-080",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-086",
+        "grade": 1,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-090",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-091",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-093",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-096",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-097",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-098",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-099",
+        "grade": 2,
+        "rationale": "Partial match based on 5 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-100",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      }
+    ]
+  },
+  {
+    "query_id": "eval-q07",
+    "query": "Senior GPU and Triton inference engineer optimizing LLMs and large scale model serving.",
+    "candidate_profile": {
+      "title": "Senior AI Infrastructure Engineer",
+      "years_experience": 6,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "Kubernetes",
+        "CUDA",
+        "Triton Inference Server",
+        "vLLM"
+      ],
+      "preferred_opportunity_types": [
+        "full-time"
+      ],
+      "preferred_locations": [
+        "New York, NY (Remote)",
+        "Remote, United States"
+      ]
+    },
+    "intent": "GPU infrastructure specialist looking for high performance inference serving.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-003",
+        "grade": 3,
+        "rationale": "Direct match with Senior AI Infrastructure Engineer role at Synthetix AI."
+      },
+      {
+        "opportunity_id": "opp-seed-001",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-002",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-004",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-005",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-006",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-007",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-010",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-011",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-014",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-015",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-016",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-018",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-019",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-020",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-021",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-022",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-023",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-025",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-026",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-027",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-028",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-029",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-030",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-032",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-035",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-036",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-037",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-039",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-045",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-046",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-047",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-051",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-053",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-055",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-056",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-057",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-058",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-059",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-061",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-062",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-063",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-064",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-067",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-068",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-070",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-072",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-077",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-078",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-079",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-080",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-081",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-083",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-084",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-086",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-089",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-091",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-093",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-094",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-098",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-099",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      }
+    ]
+  },
+  {
+    "query_id": "eval-q08",
+    "query": "Lead architect for distributed financial transaction systems with Java, Spring Boot and event sourcing.",
+    "candidate_profile": {
+      "title": "Principal Architect",
+      "years_experience": 10,
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Distributed Systems",
+        "PostgreSQL",
+        "Kafka",
+        "CQRS"
+      ],
+      "preferred_opportunity_types": [
+        "full-time"
+      ],
+      "preferred_locations": [
+        "New York, NY",
+        "Remote, United States"
+      ]
+    },
+    "intent": "Fintech architect targeting core banking and immutable transaction ledger systems.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-008",
+        "grade": 3,
+        "rationale": "Exact match with Lead Backend Architect - Financial Systems."
+      },
+      {
+        "opportunity_id": "opp-seed-001",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-002",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-007",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-010",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-012",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-015",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-016",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-024",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-032",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-034",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-036",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-039",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-041",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-042",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-043",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-044",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-045",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-046",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-047",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-049",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-050",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-051",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-053",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-055",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-056",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-057",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-060",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-063",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-064",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-065",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-070",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-071",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-072",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-074",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-075",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-076",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-078",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-079",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-080",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-081",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-082",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-083",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-085",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-086",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-087",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-090",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-091",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-093",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-095",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-096",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-097",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-098",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-099",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-100",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      }
+    ]
+  },
+  {
+    "query_id": "eval-q09",
+    "query": "Frontend engineer specialized in accessible UI component design systems and Storybook.",
+    "candidate_profile": {
+      "title": "Frontend Engineer",
+      "years_experience": 3,
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Storybook",
+        "Accessibility (a11y)"
+      ],
+      "preferred_opportunity_types": [
+        "full-time"
+      ],
+      "preferred_locations": [
+        "Los Angeles, CA (Remote)",
+        "Remote, United States"
+      ]
+    },
+    "intent": "Frontend developer focusing on UI libraries, design tokens, and accessibility.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-009",
+        "grade": 3,
+        "rationale": "Matches Frontend Software Engineer - Design Systems perfectly."
+      },
+      {
+        "opportunity_id": "opp-seed-001",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-005",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-011",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-012",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-013",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-017",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-018",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-022",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-023",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-033",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-035",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-038",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-040",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-048",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-052",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-054",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-055",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-063",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-066",
+        "grade": 1,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-069",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-074",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-075",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-081",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-084",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-088",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-089",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-092",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-093",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-095",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-099",
+        "grade": 1,
+        "rationale": "Partial match based on 0 matching skills and title overlap."
+      }
+    ]
+  },
+  {
+    "query_id": "eval-q10",
+    "query": "Entry-level junior Python backend developer building REST APIs with FastAPI and PostgreSQL.",
+    "candidate_profile": {
+      "title": "Junior Python Developer",
+      "years_experience": 1,
+      "skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "REST APIs"
+      ],
+      "preferred_opportunity_types": [
+        "full-time"
+      ],
+      "preferred_locations": [
+        "Atlanta, GA",
+        "Remote, United States"
+      ]
+    },
+    "intent": "Junior developer looking for mentored Python FastAPI backend roles.",
+    "judgments": [
+      {
+        "opportunity_id": "opp-seed-010",
+        "grade": 3,
+        "rationale": "Direct match with Junior Python Backend Developer at Cortex Logistics."
+      },
+      {
+        "opportunity_id": "opp-seed-001",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-002",
+        "grade": 2,
+        "rationale": "Partial match based on 3 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-003",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-004",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-005",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-006",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-007",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-008",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-011",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-017",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-020",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-023",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-025",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-026",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-028",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-029",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-031",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-032",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-034",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-036",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-037",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-041",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-045",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-046",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-048",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-050",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-052",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-055",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-056",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-057",
+        "grade": 2,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-059",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-061",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-063",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-064",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-068",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-070",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-071",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-072",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-073",
+        "grade": 1,
+        "rationale": "Partial match based on 4 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-076",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-077",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-078",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-079",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-086",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-089",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-090",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-091",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-096",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-097",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-098",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-099",
+        "grade": 1,
+        "rationale": "Partial match based on 2 matching skills and title overlap."
+      },
+      {
+        "opportunity_id": "opp-seed-100",
+        "grade": 1,
+        "rationale": "Partial match based on 1 matching skills and title overlap."
+      }
+    ]
+  }
+]
